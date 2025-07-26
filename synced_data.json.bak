@@ -135,6 +135,10 @@
     "2505664": {
       "tag_name": "0.13.0",
       "fully_synced_at": "2025-07-26 07:35:00.943100"
+    },
+    "2526204": {
+      "tag_name": "0.13.1-rc1",
+      "fully_synced_at": "2025-07-26 07:35:25.047788"
     }
   },
   "assets": {
@@ -586,6 +590,38 @@
         "updated_at": "2025-07-26T07:35:24+00:00",
         "synced_at": "2025-07-26 07:35:25.028933"
       }
+    },
+    "2556942": {
+      "obs-0.13.1-installer.dmg_29315712": {
+        "name": "obs-0.13.1-installer.dmg",
+        "size": 29315712,
+        "updated_at": "2025-07-26T07:35:33+00:00",
+        "synced_at": "2025-07-26 07:35:34.009271"
+      },
+      "OBS-Studio-0.13.1-Installer.exe_36145752": {
+        "name": "OBS-Studio-0.13.1-Installer.exe",
+        "size": 36145752,
+        "updated_at": "2025-07-26T07:35:36+00:00",
+        "synced_at": "2025-07-26 07:35:36.538306"
+      },
+      "OBS-Studio-0.13.1-Win.zip_38893508": {
+        "name": "OBS-Studio-0.13.1-Win.zip",
+        "size": 38893508,
+        "updated_at": "2025-07-26T07:35:38+00:00",
+        "synced_at": "2025-07-26 07:35:39.001965"
+      },
+      "OBS-Studio-0.13.1-With-Browser-Installer.exe_86964752": {
+        "name": "OBS-Studio-0.13.1-With-Browser-Installer.exe",
+        "size": 86964752,
+        "updated_at": "2025-07-26T07:35:43+00:00",
+        "synced_at": "2025-07-26 07:35:43.392462"
+      },
+      "OBS-Studio-0.13.1-With-Browser-Win.zip_96024845": {
+        "name": "OBS-Studio-0.13.1-With-Browser-Win.zip",
+        "size": 96024845,
+        "updated_at": "2025-07-26T07:35:47+00:00",
+        "synced_at": "2025-07-26 07:35:47.874492"
+      }
     }
   },
   "source_codes": {
@@ -937,6 +973,16 @@
       "SourceCode_0.13.1-rc1.tar.gz": {
         "exists": true,
         "synced_at": "2025-07-26 07:35:08.762588"
+      }
+    },
+    "0.13.1": {
+      "SourceCode_0.13.1.zip": {
+        "exists": true,
+        "synced_at": "2025-07-26 07:35:29.900391"
+      },
+      "SourceCode_0.13.1.tar.gz": {
+        "exists": true,
+        "synced_at": "2025-07-26 07:35:31.414605"
       }
     }
   }
