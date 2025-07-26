@@ -495,6 +495,10 @@
     "34479886": {
       "tag_name": "26.1.0-rc1",
       "fully_synced_at": "2025-07-26 08:13:51.448555"
+    },
+    "34886808": {
+      "tag_name": "26.1.0-rc2",
+      "fully_synced_at": "2025-07-26 08:14:19.524209"
     }
   },
   "assets": {
@@ -2703,6 +2707,38 @@
         "updated_at": "2025-07-26T08:14:19+00:00",
         "synced_at": "2025-07-26 08:14:19.494873"
       }
+    },
+    "35257491": {
+      "obs-mac-26.1.dmg_117758147": {
+        "name": "obs-mac-26.1.dmg",
+        "size": 117758147,
+        "updated_at": "2025-07-26T08:14:35+00:00",
+        "synced_at": "2025-07-26 08:14:35.202931"
+      },
+      "OBS-Studio-26.1-Full-Installer-x64.exe_75571336": {
+        "name": "OBS-Studio-26.1-Full-Installer-x64.exe",
+        "size": 75571336,
+        "updated_at": "2025-07-26T08:14:39+00:00",
+        "synced_at": "2025-07-26 08:14:39.156264"
+      },
+      "OBS-Studio-26.1-Full-Installer-x86.exe_72512352": {
+        "name": "OBS-Studio-26.1-Full-Installer-x86.exe",
+        "size": 72512352,
+        "updated_at": "2025-07-26T08:14:42+00:00",
+        "synced_at": "2025-07-26 08:14:42.445030"
+      },
+      "OBS-Studio-26.1-Full-x64.zip_99815888": {
+        "name": "OBS-Studio-26.1-Full-x64.zip",
+        "size": 99815888,
+        "updated_at": "2025-07-26T08:14:46+00:00",
+        "synced_at": "2025-07-26 08:14:46.307658"
+      },
+      "OBS-Studio-26.1-Full-x86.zip_94867659": {
+        "name": "OBS-Studio-26.1-Full-x86.zip",
+        "size": 94867659,
+        "updated_at": "2025-07-26T08:14:50+00:00",
+        "synced_at": "2025-07-26 08:14:50.359992"
+      }
     }
   },
   "source_codes": {
@@ -3954,6 +3990,16 @@
       "SourceCode_26.1.0-rc2.tar.gz": {
         "exists": true,
         "synced_at": "2025-07-26 08:14:03.461336"
+      }
+    },
+    "26.1.0": {
+      "SourceCode_26.1.0.zip": {
+        "exists": true,
+        "synced_at": "2025-07-26 08:14:27.473215"
+      },
+      "SourceCode_26.1.0.tar.gz": {
+        "exists": true,
+        "synced_at": "2025-07-26 08:14:30.406574"
       }
     }
   }
