@@ -799,6 +799,10 @@
     "159457948": {
       "tag_name": "30.2.0-beta1",
       "fully_synced_at": "2025-07-26 09:01:25.811158"
+    },
+    "160140079": {
+      "tag_name": "30.2.0-beta2",
+      "fully_synced_at": "2025-07-26 09:02:35.165822"
     }
   },
   "assets": {
@@ -5291,6 +5295,80 @@
         "updated_at": "2025-07-26T09:01:25+00:00",
         "synced_at": "2025-07-26 09:01:25.784809"
       }
+    },
+    "160140079": {
+      "OBS-Studio-30.2.0-beta2-macOS-Apple-dSYMs.tar.xz_34733604": {
+        "name": "OBS-Studio-30.2.0-beta2-macOS-Apple-dSYMs.tar.xz",
+        "size": 34733604,
+        "updated_at": "2025-07-26T09:01:41+00:00",
+        "synced_at": "2025-07-26 09:01:42.015283"
+      },
+      "OBS-Studio-30.2.0-beta2-macOS-Apple.dmg_169356235": {
+        "name": "OBS-Studio-30.2.0-beta2-macOS-Apple.dmg",
+        "size": 169356235,
+        "updated_at": "2025-07-26T09:01:49+00:00",
+        "synced_at": "2025-07-26 09:01:50.066738"
+      },
+      "OBS-Studio-30.2.0-beta2-macOS-Intel-dSYMs.tar.xz_35678752": {
+        "name": "OBS-Studio-30.2.0-beta2-macOS-Intel-dSYMs.tar.xz",
+        "size": 35678752,
+        "updated_at": "2025-07-26T09:01:52+00:00",
+        "synced_at": "2025-07-26 09:01:52.720347"
+      },
+      "OBS-Studio-30.2.0-beta2-macOS-Intel.dmg_177892444": {
+        "name": "OBS-Studio-30.2.0-beta2-macOS-Intel.dmg",
+        "size": 177892444,
+        "updated_at": "2025-07-26T09:01:58+00:00",
+        "synced_at": "2025-07-26 09:01:58.633238"
+      },
+      "OBS-Studio-30.2.0-beta2-Sources.tar.gz_19649633": {
+        "name": "OBS-Studio-30.2.0-beta2-Sources.tar.gz",
+        "size": 19649633,
+        "updated_at": "2025-07-26T09:02:00+00:00",
+        "synced_at": "2025-07-26 09:02:00.674786"
+      },
+      "OBS-Studio-30.2.0-beta2-Ubuntu-22.04-x86_64-dbsym.ddeb_77028526": {
+        "name": "OBS-Studio-30.2.0-beta2-Ubuntu-22.04-x86_64-dbsym.ddeb",
+        "size": 77028526,
+        "updated_at": "2025-07-26T09:02:04+00:00",
+        "synced_at": "2025-07-26 09:02:05.039421"
+      },
+      "OBS-Studio-30.2.0-beta2-Ubuntu-22.04-x86_64.deb_114011664": {
+        "name": "OBS-Studio-30.2.0-beta2-Ubuntu-22.04-x86_64.deb",
+        "size": 114011664,
+        "updated_at": "2025-07-26T09:02:10+00:00",
+        "synced_at": "2025-07-26 09:02:10.632229"
+      },
+      "OBS-Studio-30.2.0-beta2-Ubuntu-24.04-x86_64-dbsym.ddeb_76045592": {
+        "name": "OBS-Studio-30.2.0-beta2-Ubuntu-24.04-x86_64-dbsym.ddeb",
+        "size": 76045592,
+        "updated_at": "2025-07-26T09:02:14+00:00",
+        "synced_at": "2025-07-26 09:02:14.370712"
+      },
+      "OBS-Studio-30.2.0-beta2-Ubuntu-24.04-x86_64.deb_114141100": {
+        "name": "OBS-Studio-30.2.0-beta2-Ubuntu-24.04-x86_64.deb",
+        "size": 114141100,
+        "updated_at": "2025-07-26T09:02:19+00:00",
+        "synced_at": "2025-07-26 09:02:20.006061"
+      },
+      "OBS-Studio-30.2.0-beta2-Windows-Installer.exe_139808648": {
+        "name": "OBS-Studio-30.2.0-beta2-Windows-Installer.exe",
+        "size": 139808648,
+        "updated_at": "2025-07-26T09:02:25+00:00",
+        "synced_at": "2025-07-26 09:02:25.632463"
+      },
+      "OBS-Studio-30.2.0-beta2-Windows-PDBs.zip_51611928": {
+        "name": "OBS-Studio-30.2.0-beta2-Windows-PDBs.zip",
+        "size": 51611928,
+        "updated_at": "2025-07-26T09:02:28+00:00",
+        "synced_at": "2025-07-26 09:02:28.594171"
+      },
+      "OBS-Studio-30.2.0-beta2-Windows.zip_158578438": {
+        "name": "OBS-Studio-30.2.0-beta2-Windows.zip",
+        "size": 158578438,
+        "updated_at": "2025-07-26T09:02:35+00:00",
+        "synced_at": "2025-07-26 09:02:35.126184"
+      }
     }
   },
   "source_codes": {
@@ -7292,6 +7370,16 @@
       "SourceCode_30.2.0-beta1.tar.gz": {
         "exists": true,
         "synced_at": "2025-07-26 09:00:12.270171"
+      }
+    },
+    "30.2.0-beta2": {
+      "SourceCode_30.2.0-beta2.zip": {
+        "exists": true,
+        "synced_at": "2025-07-26 09:01:36.435915"
+      },
+      "SourceCode_30.2.0-beta2.tar.gz": {
+        "exists": true,
+        "synced_at": "2025-07-26 09:01:39.172325"
       }
     }
   }
