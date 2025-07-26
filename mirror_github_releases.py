@@ -4,7 +4,7 @@ import requests
 import datetime
 import time
 import traceback
-import subprocess  # 新增：用于Git操作
+import subprocess
 from github import Github, GithubException
 
 # 环境变量与配置
@@ -21,10 +21,10 @@ RETRY_DELAY = int(os.environ.get('RETRY_DELAY', 10))
 print(f"=== 配置信息 ===")
 print(f"源仓库: {SOURCE_REPO}")
 print(f"目标仓库: {TARGET_REPO}")
-print(f"配置: 每个版本处理完成后自动推送同步状态")  # 新增：打印配置说明
+print(f"配置: 仅当版本有文件更新时提交同步状态")
 
 
-### 1. 同步状态文件管理（保持不变）
+### 1. 同步状态文件管理
 def load_synced_data():
     def _load(path):
         with open(path, 'r') as f:
@@ -59,51 +59,7 @@ def save_synced_data(data):
             os.remove(temp_file)
 
 
-### 新增：Git推送函数（每个版本后执行）
-def push_after_version(tag_name):
-    """每个版本处理完成后推送同步状态文件"""
-    try:
-        # 配置Git用户信息（确保提交有效）
-        subprocess.run(
-            ['git', 'config', 'user.email', 'action@github.com'],
-            check=True, capture_output=True, text=True
-        )
-        subprocess.run(
-            ['git', 'config', 'user.name', 'GitHub Action'],
-            check=True, capture_output=True, text=True
-        )
-        
-        # 添加同步状态文件（包括备份文件）
-        subprocess.run(
-            ['git', 'add', SYNCED_DATA_FILE, SYNCED_DATA_BACKUP],
-            check=True, capture_output=True, text=True
-        )
-        
-        # 提交更改（包含当前版本标签，便于追溯）
-        commit_msg = f"同步完成版本 {tag_name} 的状态记录"
-        subprocess.run(
-            ['git', 'commit', '-m', commit_msg],
-            check=True, capture_output=True, text=True
-        )
-        
-        # 推送至仓库
-        subprocess.run(
-            ['git', 'push'],
-            check=True, capture_output=True, text=True
-        )
-        print(f"✅ 已推送版本 {tag_name} 的同步状态")
-    
-    except subprocess.CalledProcessError as e:
-        # 若无可提交内容（如文件未变化），不报错
-        if "nothing to commit" in e.stderr:
-            print(f"ℹ️ 版本 {tag_name} 无状态变化，无需推送")
-        else:
-            print(f"⚠️ 推送版本 {tag_name} 状态失败: {e.stderr}")
-    except Exception as e:
-        print(f"⚠️ 推送过程异常: {str(e)}")
-
-
-### 2. 核心工具函数（保持不变）
+### 2. 核心工具函数
 def get_asset_info(asset):
     if not asset:
         return None
@@ -150,7 +106,7 @@ def retry_upload(target_release, file_path, name, content_type):
     return None
 
 
-### 3. 源代码同步（保持不变）
+### 3. 源代码同步（返回是否有文件更新）
 def sync_source_code(tag_name, target_release, synced_data):
     if not target_release:
         print(f"错误：target_release 为 None，无法同步源代码 {tag_name}")
@@ -165,6 +121,7 @@ def sync_source_code(tag_name, target_release, synced_data):
     }
     existing_assets = {a.name: a for a in target_release.get_assets()}
     synced_data['source_codes'].setdefault(tag_name, {})
+    has_changes = False  # 标记是否有文件更新
     
     for filename, url in source_files.items():
         if filename in existing_assets:
@@ -177,6 +134,7 @@ def sync_source_code(tag_name, target_release, synced_data):
                 save_synced_data(synced_data)
             continue
         
+        # 目标不存在，需要同步（属于更新）
         print(f"目标仓库缺失 {filename}，开始同步")
         temp_path = f"temp_{filename}"
         try:
@@ -192,6 +150,7 @@ def sync_source_code(tag_name, target_release, synced_data):
                 }
                 save_synced_data(synced_data)
                 print(f"同步成功 {filename}")
+                has_changes = True  # 标记有更新
             else:
                 print(f"同步 {filename} 失败")
         except Exception as e:
@@ -201,15 +160,16 @@ def sync_source_code(tag_name, target_release, synced_data):
                 os.remove(temp_path)
     
     print(f"===== 源代码同步完成: {tag_name} =====")
-    return True
+    return has_changes  # 返回是否有更新
 
 
-### 4. Release附件同步（保持不变）
+### 4. Release附件同步（返回是否有文件更新）
 def sync_release_assets(source_release, target_release, synced_data):
     source_id = str(source_release.id)
     source_assets = list(source_release.get_assets())
     target_assets = {a.name: a for a in target_release.get_assets()}
     synced_data['assets'].setdefault(source_id, {})
+    has_changes = False  # 标记是否有文件更新
     
     print(f"\n===== 同步附件（{len(source_assets)} 个）: {source_release.tag_name} =====")
     for asset in source_assets:
@@ -249,6 +209,7 @@ def sync_release_assets(source_release, target_release, synced_data):
             print(f"附件 {asset_name} 无需同步")
             continue
         
+        # 执行同步（属于更新）
         temp_path = f"temp_{asset.id}_{asset_name}"
         try:
             download_file(asset.browser_download_url, temp_path)
@@ -266,6 +227,7 @@ def sync_release_assets(source_release, target_release, synced_data):
                 }
                 save_synced_data(synced_data)
                 print(f"同步成功 {asset_name}（大小={actual_info['size']}B，时间={actual_info['updated_at']}）")
+                has_changes = True  # 标记有更新
             else:
                 print(f"同步 {asset_name} 失败")
         except Exception as e:
@@ -275,9 +237,10 @@ def sync_release_assets(source_release, target_release, synced_data):
                 os.remove(temp_path)
     
     print(f"===== 附件同步完成: {source_release.tag_name} =====")
+    return has_changes  # 返回是否有更新
 
 
-### 5. 辅助函数与主函数（仅新增推送调用）
+### 5. 辅助函数与主函数
 def download_file(url, save_path):
     if os.path.exists(save_path):
         print(f"文件已存在: {save_path}，跳过下载")
@@ -344,6 +307,49 @@ def get_or_create_release(target_repo, tag_name, name, body, draft, prerelease):
         return None
 
 
+def push_after_version(tag_name):
+    """仅在有文件更新时提交"""
+    try:
+        subprocess.run(
+            ['git', 'config', 'user.email', 'action@github.com'],
+            check=True, capture_output=True, text=True
+        )
+        subprocess.run(
+            ['git', 'config', 'user.name', 'GitHub Action'],
+            check=True, capture_output=True, text=True
+        )
+        
+        # 检查是否有文件变化
+        status = subprocess.run(
+            ['git', 'status', '--porcelain', SYNCED_DATA_FILE, SYNCED_DATA_BACKUP],
+            capture_output=True, text=True
+        ).stdout
+        if not status:
+            print(f"ℹ️ 版本 {tag_name} 无文件更新，无需提交")
+            return
+        
+        # 有变化则提交
+        subprocess.run(
+            ['git', 'add', SYNCED_DATA_FILE, SYNCED_DATA_BACKUP],
+            check=True, capture_output=True, text=True
+        )
+        commit_msg = f"版本 {tag_name} 有文件更新，同步状态"
+        subprocess.run(
+            ['git', 'commit', '-m', commit_msg],
+            check=True, capture_output=True, text=True
+        )
+        subprocess.run(
+            ['git', 'push'],
+            check=True, capture_output=True, text=True
+        )
+        print(f"✅ 已提交版本 {tag_name} 的更新状态")
+    
+    except subprocess.CalledProcessError as e:
+        print(f"⚠️ 提交版本 {tag_name} 失败: {e.stderr}")
+    except Exception as e:
+        print(f"⚠️ 提交过程异常: {str(e)}")
+
+
 def main():
     synced_data = load_synced_data()
     source_github = Github(SOURCE_GITHUB_TOKEN)
@@ -368,20 +374,24 @@ def main():
                 print(f"无法获取或创建 {tag_name}，跳过")
                 continue
             
-            # 同步源代码和附件（原有逻辑不变）
-            sync_source_code(tag_name, target_release, synced_data)
-            sync_release_assets(release, target_release, synced_data)
+            # 同步并检查是否有文件更新
+            code_changes = sync_source_code(tag_name, target_release, synced_data)
+            asset_changes = sync_release_assets(release, target_release, synced_data)
+            has_any_changes = code_changes or asset_changes  # 任意一项有更新即标记
             
-            # 标记为完全同步（原有逻辑不变）
+            # 标记为完全同步
             synced_data['releases'][source_id] = {
                 'tag_name': tag_name,
                 'fully_synced_at': str(datetime.datetime.now())
             }
             save_synced_data(synced_data)
             
-            # 新增：每个版本处理完成后推送状态文件
-            print(f"\n===== 开始推送版本 {tag_name} 的同步状态 =====")
-            push_after_version(tag_name)
+            # 仅当有文件更新时才提交
+            if has_any_changes:
+                print(f"\n===== 版本 {tag_name} 有文件更新，准备提交 =====")
+                push_after_version(tag_name)
+            else:
+                print(f"\n===== 版本 {tag_name} 无文件更新，跳过提交 =====")
         
         print("\n===== 所有 Release 处理完成 =====")
         print(f"已同步 Release: {len(synced_data['releases'])}")
