@@ -731,6 +731,10 @@
     "105048633": {
       "tag_name": "29.1.2",
       "fully_synced_at": "2025-07-26 08:44:04.809852"
+    },
+    "109061401": {
+      "tag_name": "29.1.3",
+      "fully_synced_at": "2025-07-26 08:44:57.722198"
     }
   },
   "assets": {
@@ -4219,6 +4223,56 @@
         "updated_at": "2025-07-26T08:44:57+00:00",
         "synced_at": "2025-07-26 08:44:57.697965"
       }
+    },
+    "117526856": {
+      "OBS-Studio-30.0-beta1-Full-Installer-x64.exe_135854992": {
+        "name": "OBS-Studio-30.0-beta1-Full-Installer-x64.exe",
+        "size": 135854992,
+        "updated_at": "2025-07-26T08:45:16+00:00",
+        "synced_at": "2025-07-26 08:45:16.704177"
+      },
+      "OBS-Studio-30.0-beta1.zip_149499529": {
+        "name": "OBS-Studio-30.0-beta1.zip",
+        "size": 149499529,
+        "updated_at": "2025-07-26T08:45:22+00:00",
+        "synced_at": "2025-07-26 08:45:22.756740"
+      },
+      "OBS-Studio-30.0.0-beta1-macOS-Apple-dSYMs.tar.xz_29958276": {
+        "name": "OBS-Studio-30.0.0-beta1-macOS-Apple-dSYMs.tar.xz",
+        "size": 29958276,
+        "updated_at": "2025-07-26T08:45:24+00:00",
+        "synced_at": "2025-07-26 08:45:25.055440"
+      },
+      "OBS-Studio-30.0.0-beta1-macOS-Apple.dmg_167505753": {
+        "name": "OBS-Studio-30.0.0-beta1-macOS-Apple.dmg",
+        "size": 167505753,
+        "updated_at": "2025-07-26T08:45:32+00:00",
+        "synced_at": "2025-07-26 08:45:32.513277"
+      },
+      "OBS-Studio-30.0.0-beta1-macOS-Intel-dSYMs.tar.xz_31028356": {
+        "name": "OBS-Studio-30.0.0-beta1-macOS-Intel-dSYMs.tar.xz",
+        "size": 31028356,
+        "updated_at": "2025-07-26T08:45:34+00:00",
+        "synced_at": "2025-07-26 08:45:34.945909"
+      },
+      "OBS-Studio-30.0.0-beta1-macOS-Intel.dmg_175971458": {
+        "name": "OBS-Studio-30.0.0-beta1-macOS-Intel.dmg",
+        "size": 175971458,
+        "updated_at": "2025-07-26T08:45:41+00:00",
+        "synced_at": "2025-07-26 08:45:42.050824"
+      },
+      "OBS-Studio-30.0.0-beta1-Ubuntu-x86_64-dbsym.ddeb_11817546": {
+        "name": "OBS-Studio-30.0.0-beta1-Ubuntu-x86_64-dbsym.ddeb",
+        "size": 11817546,
+        "updated_at": "2025-07-26T08:45:43+00:00",
+        "synced_at": "2025-07-26 08:45:43.943078"
+      },
+      "OBS-Studio-30.0.0-beta1-Ubuntu-x86_64.deb_114092662": {
+        "name": "OBS-Studio-30.0.0-beta1-Ubuntu-x86_64.deb",
+        "size": 114092662,
+        "updated_at": "2025-07-26T08:45:49+00:00",
+        "synced_at": "2025-07-26 08:45:49.648962"
+      }
     }
   },
   "source_codes": {
@@ -6060,6 +6114,16 @@
       "SourceCode_29.1.3.tar.gz": {
         "exists": true,
         "synced_at": "2025-07-26 08:44:19.792694"
+      }
+    },
+    "30.0.0-beta1": {
+      "SourceCode_30.0.0-beta1.zip": {
+        "exists": true,
+        "synced_at": "2025-07-26 08:45:08.714896"
+      },
+      "SourceCode_30.0.0-beta1.tar.gz": {
+        "exists": true,
+        "synced_at": "2025-07-26 08:45:11.329526"
       }
     }
   }
