@@ -243,6 +243,10 @@
     "6451486": {
       "tag_name": "19.0.0",
       "fully_synced_at": "2025-07-26 07:44:56.070986"
+    },
+    "6452797": {
+      "tag_name": "19.0.1",
+      "fully_synced_at": "2025-07-26 07:45:27.028620"
     }
   },
   "assets": {
@@ -1281,7 +1285,39 @@
         "synced_at": "2025-07-26 07:44:47.406084"
       }
     },
-    "6451486": {}
+    "6451486": {},
+    "6452797": {
+      "obs-mac-19.0.1-installer.pkg_85527071": {
+        "name": "obs-mac-19.0.1-installer.pkg",
+        "size": 85527071,
+        "updated_at": "2025-07-26T07:45:09+00:00",
+        "synced_at": "2025-07-26 07:45:09.326258"
+      },
+      "OBS-Studio-19.0.1-Full-Installer.exe_113264680": {
+        "name": "OBS-Studio-19.0.1-Full-Installer.exe",
+        "size": 113264680,
+        "updated_at": "2025-07-26T07:45:13+00:00",
+        "synced_at": "2025-07-26 07:45:13.668988"
+      },
+      "OBS-Studio-19.0.1-Full.zip_167799925": {
+        "name": "OBS-Studio-19.0.1-Full.zip",
+        "size": 167799925,
+        "updated_at": "2025-07-26T07:45:20+00:00",
+        "synced_at": "2025-07-26 07:45:20.498123"
+      },
+      "OBS-Studio-19.0.1-Small-Installer.exe_47164976": {
+        "name": "OBS-Studio-19.0.1-Small-Installer.exe",
+        "size": 47164976,
+        "updated_at": "2025-07-26T07:45:23+00:00",
+        "synced_at": "2025-07-26 07:45:23.300563"
+      },
+      "OBS-Studio-19.0.1-Small.zip_68104786": {
+        "name": "OBS-Studio-19.0.1-Small.zip",
+        "size": 68104786,
+        "updated_at": "2025-07-26T07:45:26+00:00",
+        "synced_at": "2025-07-26 07:45:27.014507"
+      }
+    }
   },
   "source_codes": {
     "0.2.4": {
@@ -1892,6 +1928,16 @@
       "SourceCode_19.0.0.tar.gz": {
         "exists": true,
         "synced_at": "2025-07-26 07:44:55.688245"
+      }
+    },
+    "19.0.1": {
+      "SourceCode_19.0.1.zip": {
+        "exists": true,
+        "synced_at": "2025-07-26 07:45:03.032120"
+      },
+      "SourceCode_19.0.1.tar.gz": {
+        "exists": true,
+        "synced_at": "2025-07-26 07:45:04.731464"
       }
     }
   }
