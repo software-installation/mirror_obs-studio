@@ -675,6 +675,10 @@
     "82177726": {
       "tag_name": "28.1.2",
       "fully_synced_at": "2025-07-26 08:32:32.701849"
+    },
+    "83939871": {
+      "tag_name": "29.0.0-beta1",
+      "fully_synced_at": "2025-07-26 08:33:28.062614"
     }
   },
   "assets": {
@@ -3571,6 +3575,50 @@
         "updated_at": "2025-07-26T08:33:27+00:00",
         "synced_at": "2025-07-26 08:33:28.038427"
       }
+    },
+    "84759278": {
+      "OBS-Studio-29.0-beta2-Full-Installer-x64.exe_153983584": {
+        "name": "OBS-Studio-29.0-beta2-Full-Installer-x64.exe",
+        "size": 153983584,
+        "updated_at": "2025-07-26T08:33:47+00:00",
+        "synced_at": "2025-07-26 08:33:47.720439"
+      },
+      "OBS-Studio-29.0-beta2-Full-x64.zip_201091492": {
+        "name": "OBS-Studio-29.0-beta2-Full-x64.zip",
+        "size": 201091492,
+        "updated_at": "2025-07-26T08:33:55+00:00",
+        "synced_at": "2025-07-26 08:33:55.616474"
+      },
+      "obs-studio-29.0.0-beta2-macos-arm64.dmg_153182178": {
+        "name": "obs-studio-29.0.0-beta2-macos-arm64.dmg",
+        "size": 153182178,
+        "updated_at": "2025-07-26T08:34:02+00:00",
+        "synced_at": "2025-07-26 08:34:02.124170"
+      },
+      "obs-studio-29.0.0-beta2-macos-x86_64.dmg_163975968": {
+        "name": "obs-studio-29.0.0-beta2-macos-x86_64.dmg",
+        "size": 163975968,
+        "updated_at": "2025-07-26T08:34:09+00:00",
+        "synced_at": "2025-07-26 08:34:10.044498"
+      },
+      "obs-studio_29.0.0.beta2-0obsproject1.jammy_amd64.deb_90224372": {
+        "name": "obs-studio_29.0.0.beta2-0obsproject1.jammy_amd64.deb",
+        "size": 90224372,
+        "updated_at": "2025-07-26T08:34:14+00:00",
+        "synced_at": "2025-07-26 08:34:14.224878"
+      },
+      "obs-studio_29.0.0.beta2-0obsproject1.kinetic_amd64.deb_89553910": {
+        "name": "obs-studio_29.0.0.beta2-0obsproject1.kinetic_amd64.deb",
+        "size": 89553910,
+        "updated_at": "2025-07-26T08:34:18+00:00",
+        "synced_at": "2025-07-26 08:34:19.027472"
+      },
+      "obs-studio_29.0.0_beta2-0obsproject1_focal_amd64.deb_84525496": {
+        "name": "obs-studio_29.0.0_beta2-0obsproject1_focal_amd64.deb",
+        "size": 84525496,
+        "updated_at": "2025-07-26T08:34:23+00:00",
+        "synced_at": "2025-07-26 08:34:23.441454"
+      }
     }
   },
   "source_codes": {
@@ -5272,6 +5320,16 @@
       "SourceCode_29.0.0-beta1.tar.gz": {
         "exists": true,
         "synced_at": "2025-07-26 08:32:45.672918"
+      }
+    },
+    "29.0.0-beta2": {
+      "SourceCode_29.0.0-beta2.zip": {
+        "exists": true,
+        "synced_at": "2025-07-26 08:33:38.448740"
+      },
+      "SourceCode_29.0.0-beta2.tar.gz": {
+        "exists": true,
+        "synced_at": "2025-07-26 08:33:41.253846"
       }
     }
   }
