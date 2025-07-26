@@ -327,6 +327,10 @@
     "12666447": {
       "tag_name": "22.0.2",
       "fully_synced_at": "2025-07-26 07:59:52.133563"
+    },
+    "12694710": {
+      "tag_name": "22.0.3",
+      "fully_synced_at": "2025-07-26 07:59:59.515276"
     }
   },
   "assets": {
@@ -1824,6 +1828,20 @@
         "updated_at": "2025-07-26T07:59:59+00:00",
         "synced_at": "2025-07-26 07:59:59.489918"
       }
+    },
+    "15466005": {
+      "OBS-Studio-23.0-rc1-Full-Installer-x64.exe_72195072": {
+        "name": "OBS-Studio-23.0-rc1-Full-Installer-x64.exe",
+        "size": 72195072,
+        "updated_at": "2025-07-26T08:00:06+00:00",
+        "synced_at": "2025-07-26 08:00:07.066336"
+      },
+      "OBS-Studio-23.0-rc1-Full-x64.zip_95419998": {
+        "name": "OBS-Studio-23.0-rc1-Full-x64.zip",
+        "size": 95419998,
+        "updated_at": "2025-07-26T08:00:12+00:00",
+        "synced_at": "2025-07-26 08:00:12.268575"
+      }
     }
   },
   "source_codes": {
@@ -2655,6 +2673,16 @@
       "SourceCode_22.0.3.tar.gz": {
         "exists": true,
         "synced_at": "2025-07-26 07:59:53.672856"
+      }
+    },
+    "23.0.0-rc1": {
+      "SourceCode_23.0.0-rc1.zip": {
+        "exists": true,
+        "synced_at": "2025-07-26 08:00:02.004406"
+      },
+      "SourceCode_23.0.0-rc1.tar.gz": {
+        "exists": true,
+        "synced_at": "2025-07-26 08:00:02.008113"
       }
     }
   }
