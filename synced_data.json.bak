@@ -359,6 +359,10 @@
     "16586349": {
       "tag_name": "23.1.0",
       "fully_synced_at": "2025-07-26 08:01:59.040115"
+    },
+    "17451425": {
+      "tag_name": "23.2.0-rc1",
+      "fully_synced_at": "2025-07-26 08:02:23.446959"
     }
   },
   "assets": {
@@ -2944,6 +2948,16 @@
       "SourceCode_23.2.0-rc1.tar.gz": {
         "exists": true,
         "synced_at": "2025-07-26 08:02:00.482893"
+      }
+    },
+    "23.2.0": {
+      "SourceCode_23.2.0.zip": {
+        "exists": true,
+        "synced_at": "2025-07-26 08:02:29.655238"
+      },
+      "SourceCode_23.2.0.tar.gz": {
+        "exists": true,
+        "synced_at": "2025-07-26 08:02:31.536903"
       }
     }
   }
