@@ -615,6 +615,10 @@
     "60769048": {
       "tag_name": "27.2.2",
       "fully_synced_at": "2025-07-26 08:22:19.819510"
+    },
+    "60850668": {
+      "tag_name": "27.2.3",
+      "fully_synced_at": "2025-07-26 08:22:32.908328"
     }
   },
   "assets": {
@@ -3012,6 +3016,51 @@
         "updated_at": "2025-07-26T08:22:19+00:00",
         "synced_at": "2025-07-26 08:22:19.785785"
       }
+    },
+    "60850668": {},
+    "63113129": {
+      "obs-mac-27.2.4.dmg_152364122": {
+        "name": "obs-mac-27.2.4.dmg",
+        "size": 152364122,
+        "updated_at": "2025-07-26T08:22:51+00:00",
+        "synced_at": "2025-07-26 08:22:51.942142"
+      },
+      "OBS-Studio-27.2.4-Full-Installer-x64.exe_117887080": {
+        "name": "OBS-Studio-27.2.4-Full-Installer-x64.exe",
+        "size": 117887080,
+        "updated_at": "2025-07-26T08:22:56+00:00",
+        "synced_at": "2025-07-26 08:22:56.701361"
+      },
+      "OBS-Studio-27.2.4-Full-Installer-x86.exe_106874704": {
+        "name": "OBS-Studio-27.2.4-Full-Installer-x86.exe",
+        "size": 106874704,
+        "updated_at": "2025-07-26T08:23:00+00:00",
+        "synced_at": "2025-07-26 08:23:01.112347"
+      },
+      "OBS-Studio-27.2.4-Full-x64.zip_138796107": {
+        "name": "OBS-Studio-27.2.4-Full-x64.zip",
+        "size": 138796107,
+        "updated_at": "2025-07-26T08:23:05+00:00",
+        "synced_at": "2025-07-26 08:23:06.082007"
+      },
+      "OBS-Studio-27.2.4-Full-x86.zip_123633679": {
+        "name": "OBS-Studio-27.2.4-Full-x86.zip",
+        "size": 123633679,
+        "updated_at": "2025-07-26T08:23:10+00:00",
+        "synced_at": "2025-07-26 08:23:11.025401"
+      },
+      "obs-studio_27.2.4-0obsproject1.bionic_amd64.deb_80145708": {
+        "name": "obs-studio_27.2.4-0obsproject1.bionic_amd64.deb",
+        "size": 80145708,
+        "updated_at": "2025-07-26T08:23:14+00:00",
+        "synced_at": "2025-07-26 08:23:14.996155"
+      },
+      "obs-studio_27.2.4-0obsproject1.impish_amd64.deb_85559762": {
+        "name": "obs-studio_27.2.4-0obsproject1.impish_amd64.deb",
+        "size": 85559762,
+        "updated_at": "2025-07-26T08:23:18+00:00",
+        "synced_at": "2025-07-26 08:23:18.962242"
+      }
     }
   },
   "source_codes": {
@@ -4563,6 +4612,16 @@
       "SourceCode_27.2.3.tar.gz": {
         "exists": true,
         "synced_at": "2025-07-26 08:22:32.530135"
+      }
+    },
+    "27.2.4": {
+      "SourceCode_27.2.4.zip": {
+        "exists": true,
+        "synced_at": "2025-07-26 08:22:43.086385"
+      },
+      "SourceCode_27.2.4.tar.gz": {
+        "exists": true,
+        "synced_at": "2025-07-26 08:22:45.946020"
       }
     }
   }
