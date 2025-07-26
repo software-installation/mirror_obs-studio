@@ -87,6 +87,10 @@
     "1289617": {
       "tag_name": "0.10.0",
       "fully_synced_at": "2025-07-26 07:31:57.590719"
+    },
+    "1310361": {
+      "tag_name": "0.10.1",
+      "fully_synced_at": "2025-07-26 07:32:12.564060"
     }
   },
   "assets": {
@@ -549,6 +553,16 @@
       "SourceCode_0.10.1.tar.gz": {
         "exists": true,
         "synced_at": "2025-07-26 07:32:04.659239"
+      }
+    },
+    "0.11.0": {
+      "SourceCode_0.11.0.zip": {
+        "exists": true,
+        "synced_at": "2025-07-26 07:32:18.071895"
+      },
+      "SourceCode_0.11.0.tar.gz": {
+        "exists": true,
+        "synced_at": "2025-07-26 07:32:19.684134"
       }
     }
   }
