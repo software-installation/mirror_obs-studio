@@ -475,6 +475,10 @@
     "31011101": {
       "tag_name": "26.0.0-rc2",
       "fully_synced_at": "2025-07-26 08:12:05.719215"
+    },
+    "31555788": {
+      "tag_name": "26.0.0-rc3",
+      "fully_synced_at": "2025-07-26 08:12:30.936732"
     }
   },
   "assets": {
@@ -3810,6 +3814,16 @@
       "SourceCode_26.0.0-rc3.tar.gz": {
         "exists": true,
         "synced_at": "2025-07-26 08:12:16.416909"
+      }
+    },
+    "26.0.0": {
+      "SourceCode_26.0.0.zip": {
+        "exists": true,
+        "synced_at": "2025-07-26 08:12:37.915481"
+      },
+      "SourceCode_26.0.0.tar.gz": {
+        "exists": true,
+        "synced_at": "2025-07-26 08:12:40.230204"
       }
     }
   }
