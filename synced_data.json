@@ -847,6 +847,10 @@
     "186511763": {
       "tag_name": "31.0.0-rc1",
       "fully_synced_at": "2025-07-26 09:17:28.876677"
+    },
+    "189509481": {
+      "tag_name": "31.0.0",
+      "fully_synced_at": "2025-07-26 09:18:47.582676"
     }
   },
   "assets": {
@@ -6329,6 +6333,80 @@
         "updated_at": "2025-07-26T09:17:28+00:00",
         "synced_at": "2025-07-26 09:17:28.846102"
       }
+    },
+    "189509481": {
+      "OBS-Studio-31.0.0-macOS-Apple-dSYMs.tar.xz_35210716": {
+        "name": "OBS-Studio-31.0.0-macOS-Apple-dSYMs.tar.xz",
+        "size": 35210716,
+        "updated_at": "2025-07-26T09:17:43+00:00",
+        "synced_at": "2025-07-26 09:17:43.899015"
+      },
+      "OBS-Studio-31.0.0-macOS-Apple.dmg_186659510": {
+        "name": "OBS-Studio-31.0.0-macOS-Apple.dmg",
+        "size": 186659510,
+        "updated_at": "2025-07-26T09:17:50+00:00",
+        "synced_at": "2025-07-26 09:17:51.048206"
+      },
+      "OBS-Studio-31.0.0-macOS-Intel-dSYMs.tar.xz_36228960": {
+        "name": "OBS-Studio-31.0.0-macOS-Intel-dSYMs.tar.xz",
+        "size": 36228960,
+        "updated_at": "2025-07-26T09:17:53+00:00",
+        "synced_at": "2025-07-26 09:17:53.396320"
+      },
+      "OBS-Studio-31.0.0-macOS-Intel.dmg_196564539": {
+        "name": "OBS-Studio-31.0.0-macOS-Intel.dmg",
+        "size": 196564539,
+        "updated_at": "2025-07-26T09:17:59+00:00",
+        "synced_at": "2025-07-26 09:17:59.534013"
+      },
+      "OBS-Studio-31.0.0-Sources.tar.gz_16482396": {
+        "name": "OBS-Studio-31.0.0-Sources.tar.gz",
+        "size": 16482396,
+        "updated_at": "2025-07-26T09:18:01+00:00",
+        "synced_at": "2025-07-26 09:18:01.729888"
+      },
+      "OBS-Studio-31.0.0-Ubuntu-24.04-x86_64-dbsym.ddeb_434878634": {
+        "name": "OBS-Studio-31.0.0-Ubuntu-24.04-x86_64-dbsym.ddeb",
+        "size": 434878634,
+        "updated_at": "2025-07-26T09:18:19+00:00",
+        "synced_at": "2025-07-26 09:18:19.239474"
+      },
+      "OBS-Studio-31.0.0-Ubuntu-24.04-x86_64.deb_134165012": {
+        "name": "OBS-Studio-31.0.0-Ubuntu-24.04-x86_64.deb",
+        "size": 134165012,
+        "updated_at": "2025-07-26T09:18:23+00:00",
+        "synced_at": "2025-07-26 09:18:23.794500"
+      },
+      "OBS-Studio-31.0.0-Windows-Installer.exe_156181992": {
+        "name": "OBS-Studio-31.0.0-Windows-Installer.exe",
+        "size": 156181992,
+        "updated_at": "2025-07-26T09:18:29+00:00",
+        "synced_at": "2025-07-26 09:18:29.532409"
+      },
+      "OBS-Studio-31.0.0-Windows-PDBs.zip_57642322": {
+        "name": "OBS-Studio-31.0.0-Windows-PDBs.zip",
+        "size": 57642322,
+        "updated_at": "2025-07-26T09:18:32+00:00",
+        "synced_at": "2025-07-26 09:18:32.501428"
+      },
+      "OBS-Studio-31.0.0-Windows.zip_181454627": {
+        "name": "OBS-Studio-31.0.0-Windows.zip",
+        "size": 181454627,
+        "updated_at": "2025-07-26T09:18:38+00:00",
+        "synced_at": "2025-07-26 09:18:38.696764"
+      },
+      "obs-studio_31.0.0-0obsproject1.noble_amd64.deb_104893602": {
+        "name": "obs-studio_31.0.0-0obsproject1.noble_amd64.deb",
+        "size": 104893602,
+        "updated_at": "2025-07-26T09:18:43+00:00",
+        "synced_at": "2025-07-26 09:18:43.166134"
+      },
+      "obs-studio_31.0.0-0obsproject1.oracular_amd64.deb_105125804": {
+        "name": "obs-studio_31.0.0-0obsproject1.oracular_amd64.deb",
+        "size": 105125804,
+        "updated_at": "2025-07-26T09:18:47+00:00",
+        "synced_at": "2025-07-26 09:18:47.552274"
+      }
     }
   },
   "source_codes": {
@@ -8450,6 +8528,16 @@
       "SourceCode_31.0.0-rc1.tar.gz": {
         "exists": true,
         "synced_at": "2025-07-26 09:16:16.509176"
+      }
+    },
+    "31.0.0": {
+      "SourceCode_31.0.0.zip": {
+        "exists": true,
+        "synced_at": "2025-07-26 09:17:38.452241"
+      },
+      "SourceCode_31.0.0.tar.gz": {
+        "exists": true,
+        "synced_at": "2025-07-26 09:17:41.136100"
       }
     }
   }
