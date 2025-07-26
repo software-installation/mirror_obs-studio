@@ -599,6 +599,10 @@
     "59046371": {
       "tag_name": "27.2.0-rc3",
       "fully_synced_at": "2025-07-26 08:21:16.642082"
+    },
+    "59060753": {
+      "tag_name": "27.2.0-rc4",
+      "fully_synced_at": "2025-07-26 08:21:36.260873"
     }
   },
   "assets": {
@@ -4497,6 +4501,16 @@
       "SourceCode_27.2.0-rc4.tar.gz": {
         "exists": true,
         "synced_at": "2025-07-26 08:21:29.608908"
+      }
+    },
+    "27.2.0": {
+      "SourceCode_27.2.0.zip": {
+        "exists": true,
+        "synced_at": "2025-07-26 08:21:44.495991"
+      },
+      "SourceCode_27.2.0.tar.gz": {
+        "exists": true,
+        "synced_at": "2025-07-26 08:21:47.311786"
       }
     }
   }
