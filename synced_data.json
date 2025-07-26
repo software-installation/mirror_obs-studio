@@ -691,6 +691,10 @@
     "88223104": {
       "tag_name": "29.0.0",
       "fully_synced_at": "2025-07-26 08:35:51.040146"
+    },
+    "91230725": {
+      "tag_name": "29.0.1",
+      "fully_synced_at": "2025-07-26 08:36:29.770110"
     }
   },
   "assets": {
@@ -3701,6 +3705,32 @@
         "updated_at": "2025-07-26T08:35:50+00:00",
         "synced_at": "2025-07-26 08:35:51.016091"
       }
+    },
+    "91230725": {
+      "OBS-Studio-29.0.1-Full-Installer-x64.exe_122385848": {
+        "name": "OBS-Studio-29.0.1-Full-Installer-x64.exe",
+        "size": 122385848,
+        "updated_at": "2025-07-26T08:36:09+00:00",
+        "synced_at": "2025-07-26 08:36:09.466947"
+      },
+      "obs-studio-29.0.1-macos-arm64.dmg_153240061": {
+        "name": "obs-studio-29.0.1-macos-arm64.dmg",
+        "size": 153240061,
+        "updated_at": "2025-07-26T08:36:15+00:00",
+        "synced_at": "2025-07-26 08:36:15.423472"
+      },
+      "obs-studio-29.0.1-macos-x86_64.dmg_163971106": {
+        "name": "obs-studio-29.0.1-macos-x86_64.dmg",
+        "size": 163971106,
+        "updated_at": "2025-07-26T08:36:20+00:00",
+        "synced_at": "2025-07-26 08:36:21.088900"
+      },
+      "OBS-Studio-29.0.1.zip_146298595": {
+        "name": "OBS-Studio-29.0.1.zip",
+        "size": 146298595,
+        "updated_at": "2025-07-26T08:36:29+00:00",
+        "synced_at": "2025-07-26 08:36:29.734099"
+      }
     }
   },
   "source_codes": {
@@ -5432,6 +5462,16 @@
       "SourceCode_29.0.0.tar.gz": {
         "exists": true,
         "synced_at": "2025-07-26 08:35:16.410289"
+      }
+    },
+    "29.0.1": {
+      "SourceCode_29.0.1.zip": {
+        "exists": true,
+        "synced_at": "2025-07-26 08:36:01.470489"
+      },
+      "SourceCode_29.0.1.tar.gz": {
+        "exists": true,
+        "synced_at": "2025-07-26 08:36:04.389191"
       }
     }
   }
