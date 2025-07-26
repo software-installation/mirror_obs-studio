@@ -291,6 +291,10 @@
     "9566805": {
       "tag_name": "21.0.2",
       "fully_synced_at": "2025-07-26 07:50:09.818883"
+    },
+    "9808401": {
+      "tag_name": "21.0.3",
+      "fully_synced_at": "2025-07-26 07:50:30.429880"
     }
   },
   "assets": {
@@ -1633,6 +1637,20 @@
         "updated_at": "2025-07-26T07:50:09+00:00",
         "synced_at": "2025-07-26 07:50:09.797448"
       }
+    },
+    "9808401": {
+      "obs-mac-21.0.3-installer.pkg_110156375": {
+        "name": "obs-mac-21.0.3-installer.pkg",
+        "size": 110156375,
+        "updated_at": "2025-07-26T07:50:24+00:00",
+        "synced_at": "2025-07-26 07:50:24.801442"
+      },
+      "obs-mac-21.0.3-installer.zip_110156565": {
+        "name": "obs-mac-21.0.3-installer.zip",
+        "size": 110156565,
+        "updated_at": "2025-07-26T07:50:30+00:00",
+        "synced_at": "2025-07-26 07:50:30.406849"
+      }
     }
   },
   "source_codes": {
@@ -2364,6 +2382,16 @@
       "SourceCode_21.0.2.tar.gz": {
         "exists": true,
         "synced_at": "2025-07-26 07:49:58.827598"
+      }
+    },
+    "21.0.3": {
+      "SourceCode_21.0.3.zip": {
+        "exists": true,
+        "synced_at": "2025-07-26 07:50:17.022733"
+      },
+      "SourceCode_21.0.3.tar.gz": {
+        "exists": true,
+        "synced_at": "2025-07-26 07:50:18.873778"
       }
     }
   }
