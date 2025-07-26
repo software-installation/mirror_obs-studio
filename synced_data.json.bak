@@ -227,6 +227,10 @@
     "5197794": {
       "tag_name": "17.0.2",
       "fully_synced_at": "2025-07-26 07:43:19.814352"
+    },
+    "5587796": {
+      "tag_name": "18.0.0",
+      "fully_synced_at": "2025-07-26 07:43:48.229569"
     }
   },
   "assets": {
@@ -1206,6 +1210,38 @@
         "updated_at": "2025-07-26T07:43:48+00:00",
         "synced_at": "2025-07-26 07:43:48.215766"
       }
+    },
+    "5664741": {
+      "obs-mac-18.0.1-installer.pkg_84228648": {
+        "name": "obs-mac-18.0.1-installer.pkg",
+        "size": 84228648,
+        "updated_at": "2025-07-26T07:44:01+00:00",
+        "synced_at": "2025-07-26 07:44:01.292959"
+      },
+      "OBS-Studio-18.0.1-Full-Installer.exe_113034688": {
+        "name": "OBS-Studio-18.0.1-Full-Installer.exe",
+        "size": 113034688,
+        "updated_at": "2025-07-26T07:44:06+00:00",
+        "synced_at": "2025-07-26 07:44:06.282519"
+      },
+      "OBS-Studio-18.0.1-Full.zip_167025023": {
+        "name": "OBS-Studio-18.0.1-Full.zip",
+        "size": 167025023,
+        "updated_at": "2025-07-26T07:44:13+00:00",
+        "synced_at": "2025-07-26 07:44:13.294873"
+      },
+      "OBS-Studio-18.0.1-Small-Installer.exe_47182376": {
+        "name": "OBS-Studio-18.0.1-Small-Installer.exe",
+        "size": 47182376,
+        "updated_at": "2025-07-26T07:44:16+00:00",
+        "synced_at": "2025-07-26 07:44:16.197768"
+      },
+      "OBS-Studio-18.0.1-Small.zip_67706079": {
+        "name": "OBS-Studio-18.0.1-Small.zip",
+        "size": 67706079,
+        "updated_at": "2025-07-26T07:44:19+00:00",
+        "synced_at": "2025-07-26 07:44:19.702691"
+      }
     }
   },
   "source_codes": {
@@ -1787,6 +1823,16 @@
       "SourceCode_18.0.0.tar.gz": {
         "exists": true,
         "synced_at": "2025-07-26 07:43:28.026912"
+      }
+    },
+    "18.0.1": {
+      "SourceCode_18.0.1.zip": {
+        "exists": true,
+        "synced_at": "2025-07-26 07:43:54.791938"
+      },
+      "SourceCode_18.0.1.tar.gz": {
+        "exists": true,
+        "synced_at": "2025-07-26 07:43:56.579605"
       }
     }
   }
