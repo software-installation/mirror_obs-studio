@@ -255,6 +255,10 @@
     "6799162": {
       "tag_name": "19.0.3",
       "fully_synced_at": "2025-07-26 07:46:36.229549"
+    },
+    "7352149": {
+      "tag_name": "20.0.0",
+      "fully_synced_at": "2025-07-26 07:47:06.506185"
     }
   },
   "assets": {
@@ -1427,6 +1431,44 @@
         "updated_at": "2025-07-26T07:47:06+00:00",
         "synced_at": "2025-07-26 07:47:06.495112"
       }
+    },
+    "7364934": {
+      "obs-mac-20.0.1-installer.pkg_86247963": {
+        "name": "obs-mac-20.0.1-installer.pkg",
+        "size": 86247963,
+        "updated_at": "2025-07-26T07:47:20+00:00",
+        "synced_at": "2025-07-26 07:47:20.610521"
+      },
+      "obs-mac-20.0.1-installer.zip_86248153": {
+        "name": "obs-mac-20.0.1-installer.zip",
+        "size": 86248153,
+        "updated_at": "2025-07-26T07:47:25+00:00",
+        "synced_at": "2025-07-26 07:47:25.969484"
+      },
+      "OBS-Studio-20.0.1-Full-Installer.exe_101899104": {
+        "name": "OBS-Studio-20.0.1-Full-Installer.exe",
+        "size": 101899104,
+        "updated_at": "2025-07-26T07:47:29+00:00",
+        "synced_at": "2025-07-26 07:47:29.937834"
+      },
+      "OBS-Studio-20.0.1-Full.zip_147357804": {
+        "name": "OBS-Studio-20.0.1-Full.zip",
+        "size": 147357804,
+        "updated_at": "2025-07-26T07:47:36+00:00",
+        "synced_at": "2025-07-26 07:47:36.417153"
+      },
+      "OBS-Studio-20.0.1-Small-Installer.exe_35980560": {
+        "name": "OBS-Studio-20.0.1-Small-Installer.exe",
+        "size": 35980560,
+        "updated_at": "2025-07-26T07:47:38+00:00",
+        "synced_at": "2025-07-26 07:47:38.873197"
+      },
+      "OBS-Studio-20.0.1-Small.zip_47662665": {
+        "name": "OBS-Studio-20.0.1-Small.zip",
+        "size": 47662665,
+        "updated_at": "2025-07-26T07:47:41+00:00",
+        "synced_at": "2025-07-26 07:47:41.776150"
+      }
     }
   },
   "source_codes": {
@@ -2078,6 +2120,16 @@
       "SourceCode_20.0.0.tar.gz": {
         "exists": true,
         "synced_at": "2025-07-26 07:46:44.938524"
+      }
+    },
+    "20.0.1": {
+      "SourceCode_20.0.1.zip": {
+        "exists": true,
+        "synced_at": "2025-07-26 07:47:13.889054"
+      },
+      "SourceCode_20.0.1.tar.gz": {
+        "exists": true,
+        "synced_at": "2025-07-26 07:47:15.539808"
       }
     }
   }
