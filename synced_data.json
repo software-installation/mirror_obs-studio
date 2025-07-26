@@ -635,6 +635,10 @@
     "74769956": {
       "tag_name": "28.0.0-rc1",
       "fully_synced_at": "2025-07-26 08:25:24.117241"
+    },
+    "75297358": {
+      "tag_name": "28.0.0-rc2",
+      "fully_synced_at": "2025-07-26 08:26:04.023113"
     }
   },
   "assets": {
@@ -3155,6 +3159,32 @@
         "updated_at": "2025-07-26T08:25:23+00:00",
         "synced_at": "2025-07-26 08:25:24.080237"
       }
+    },
+    "75297358": {
+      "OBS-Studio-28.0-rc2-Full-Installer-x64.exe_153322120": {
+        "name": "OBS-Studio-28.0-rc2-Full-Installer-x64.exe",
+        "size": 153322120,
+        "updated_at": "2025-07-26T08:25:43+00:00",
+        "synced_at": "2025-07-26 08:25:43.231542"
+      },
+      "OBS-Studio-28.0-rc2-Full-x64.zip_200129303": {
+        "name": "OBS-Studio-28.0-rc2-Full-x64.zip",
+        "size": 200129303,
+        "updated_at": "2025-07-26T08:25:50+00:00",
+        "synced_at": "2025-07-26 08:25:50.677427"
+      },
+      "obs-studio-28.0.0-rc2-macos-arm64.dmg_152664984": {
+        "name": "obs-studio-28.0.0-rc2-macos-arm64.dmg",
+        "size": 152664984,
+        "updated_at": "2025-07-26T08:25:57+00:00",
+        "synced_at": "2025-07-26 08:25:57.136123"
+      },
+      "obs-studio-28.0.0-rc2-macos-x86_64.dmg_163473829": {
+        "name": "obs-studio-28.0.0-rc2-macos-x86_64.dmg",
+        "size": 163473829,
+        "updated_at": "2025-07-26T08:26:03+00:00",
+        "synced_at": "2025-07-26 08:26:03.986984"
+      }
     }
   },
   "source_codes": {
@@ -4746,6 +4776,16 @@
       "SourceCode_28.0.0-rc1.tar.gz": {
         "exists": true,
         "synced_at": "2025-07-26 08:24:54.793013"
+      }
+    },
+    "28.0.0-rc2": {
+      "SourceCode_28.0.0-rc2.zip": {
+        "exists": true,
+        "synced_at": "2025-07-26 08:25:34.450936"
+      },
+      "SourceCode_28.0.0-rc2.tar.gz": {
+        "exists": true,
+        "synced_at": "2025-07-26 08:25:37.285390"
       }
     }
   }
