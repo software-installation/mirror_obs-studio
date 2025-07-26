@@ -731,6 +731,10 @@
     "105048633": {
       "tag_name": "29.1.2",
       "fully_synced_at": "2025-07-26 08:44:04.809852"
+    },
+    "109061401": {
+      "tag_name": "29.1.3",
+      "fully_synced_at": "2025-07-26 08:44:57.722198"
     }
   },
   "assets": {
@@ -4169,6 +4173,56 @@
         "updated_at": "2025-07-26T08:44:04+00:00",
         "synced_at": "2025-07-26 08:44:04.785573"
       }
+    },
+    "109061401": {
+      "OBS-Studio-29.1.3-Full-Installer-x64.exe_134083968": {
+        "name": "OBS-Studio-29.1.3-Full-Installer-x64.exe",
+        "size": 134083968,
+        "updated_at": "2025-07-26T08:44:24+00:00",
+        "synced_at": "2025-07-26 08:44:24.917695"
+      },
+      "obs-studio-29.1.3-macos-arm64.dmg_112606715": {
+        "name": "obs-studio-29.1.3-macos-arm64.dmg",
+        "size": 112606715,
+        "updated_at": "2025-07-26T08:44:28+00:00",
+        "synced_at": "2025-07-26 08:44:29.034889"
+      },
+      "obs-studio-29.1.3-macos-x86_64.dmg_127895207": {
+        "name": "obs-studio-29.1.3-macos-x86_64.dmg",
+        "size": 127895207,
+        "updated_at": "2025-07-26T08:44:33+00:00",
+        "synced_at": "2025-07-26 08:44:33.708172"
+      },
+      "OBS-Studio-29.1.3.zip_147708108": {
+        "name": "OBS-Studio-29.1.3.zip",
+        "size": 147708108,
+        "updated_at": "2025-07-26T08:44:39+00:00",
+        "synced_at": "2025-07-26 08:44:39.280298"
+      },
+      "obs-studio_29.1.3-0obsproject1.focal_amd64.deb_84882756": {
+        "name": "obs-studio_29.1.3-0obsproject1.focal_amd64.deb",
+        "size": 84882756,
+        "updated_at": "2025-07-26T08:44:43+00:00",
+        "synced_at": "2025-07-26 08:44:43.137592"
+      },
+      "obs-studio_29.1.3-0obsproject1.jammy_amd64.deb_90725594": {
+        "name": "obs-studio_29.1.3-0obsproject1.jammy_amd64.deb",
+        "size": 90725594,
+        "updated_at": "2025-07-26T08:44:47+00:00",
+        "synced_at": "2025-07-26 08:44:48.028336"
+      },
+      "obs-studio_29.1.3-0obsproject1.kinetic_amd64.deb_90093118": {
+        "name": "obs-studio_29.1.3-0obsproject1.kinetic_amd64.deb",
+        "size": 90093118,
+        "updated_at": "2025-07-26T08:44:52+00:00",
+        "synced_at": "2025-07-26 08:44:52.962117"
+      },
+      "obs-studio_29.1.3-0obsproject1.lunar_amd64.deb_89922178": {
+        "name": "obs-studio_29.1.3-0obsproject1.lunar_amd64.deb",
+        "size": 89922178,
+        "updated_at": "2025-07-26T08:44:57+00:00",
+        "synced_at": "2025-07-26 08:44:57.697965"
+      }
     }
   },
   "source_codes": {
@@ -6000,6 +6054,16 @@
       "SourceCode_29.1.2.tar.gz": {
         "exists": true,
         "synced_at": "2025-07-26 08:43:24.017239"
+      }
+    },
+    "29.1.3": {
+      "SourceCode_29.1.3.zip": {
+        "exists": true,
+        "synced_at": "2025-07-26 08:44:16.334490"
+      },
+      "SourceCode_29.1.3.tar.gz": {
+        "exists": true,
+        "synced_at": "2025-07-26 08:44:19.792694"
       }
     }
   }
