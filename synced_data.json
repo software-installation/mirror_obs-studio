@@ -467,6 +467,10 @@
     "25904082": {
       "tag_name": "25.0.8",
       "fully_synced_at": "2025-07-26 08:11:11.886818"
+    },
+    "30378451": {
+      "tag_name": "26.0.0-rc1",
+      "fully_synced_at": "2025-07-26 08:11:37.680840"
     }
   },
   "assets": {
@@ -2541,6 +2545,26 @@
         "updated_at": "2025-07-26T08:11:11+00:00",
         "synced_at": "2025-07-26 08:11:11.864961"
       }
+    },
+    "30378451": {
+      "obs-mac-26.0-rc1.dmg_110445082": {
+        "name": "obs-mac-26.0-rc1.dmg",
+        "size": 110445082,
+        "updated_at": "2025-07-26T08:11:28+00:00",
+        "synced_at": "2025-07-26 08:11:28.447616"
+      },
+      "OBS-Studio-26.0-rc1-Full-Installer-x64.exe_89782944": {
+        "name": "OBS-Studio-26.0-rc1-Full-Installer-x64.exe",
+        "size": 89782944,
+        "updated_at": "2025-07-26T08:11:32+00:00",
+        "synced_at": "2025-07-26 08:11:32.742756"
+      },
+      "OBS-Studio-26.0-rc1-Full-x64.zip_124230407": {
+        "name": "OBS-Studio-26.0-rc1-Full-x64.zip",
+        "size": 124230407,
+        "updated_at": "2025-07-26T08:11:37+00:00",
+        "synced_at": "2025-07-26 08:11:37.652831"
+      }
     }
   },
   "source_codes": {
@@ -3712,6 +3736,16 @@
       "SourceCode_25.0.8.tar.gz": {
         "exists": true,
         "synced_at": "2025-07-26 08:10:51.920260"
+      }
+    },
+    "26.0.0-rc1": {
+      "SourceCode_26.0.0-rc1.zip": {
+        "exists": true,
+        "synced_at": "2025-07-26 08:11:21.368575"
+      },
+      "SourceCode_26.0.0-rc1.tar.gz": {
+        "exists": true,
+        "synced_at": "2025-07-26 08:11:23.533008"
       }
     }
   }
