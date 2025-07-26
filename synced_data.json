@@ -415,6 +415,10 @@
     "25496953": {
       "tag_name": "24.0.6",
       "fully_synced_at": "2025-07-26 08:06:12.797020"
+    },
+    "24156442": {
+      "tag_name": "25.0.0-rc1",
+      "fully_synced_at": "2025-07-26 08:06:50.009431"
     }
   },
   "assets": {
@@ -2250,6 +2254,38 @@
         "updated_at": "2025-07-26T08:06:12+00:00",
         "synced_at": "2025-07-26 08:06:12.772150"
       }
+    },
+    "24156442": {
+      "OBS-mac-25.0.0-rc1.dmg_108519345": {
+        "name": "OBS-mac-25.0.0-rc1.dmg",
+        "size": 108519345,
+        "updated_at": "2025-07-26T08:06:28+00:00",
+        "synced_at": "2025-07-26 08:06:28.904291"
+      },
+      "OBS-Studio-25.0-rc1-Full-Installer-x64.exe_75405472": {
+        "name": "OBS-Studio-25.0-rc1-Full-Installer-x64.exe",
+        "size": 75405472,
+        "updated_at": "2025-07-26T08:06:32+00:00",
+        "synced_at": "2025-07-26 08:06:32.772850"
+      },
+      "OBS-Studio-25.0-rc1-Full-Installer-x86.exe_71799968": {
+        "name": "OBS-Studio-25.0-rc1-Full-Installer-x86.exe",
+        "size": 71799968,
+        "updated_at": "2025-07-26T08:06:36+00:00",
+        "synced_at": "2025-07-26 08:06:36.388687"
+      },
+      "OBS-Studio-25.0-rc1-Full-x64.zip_101152395": {
+        "name": "OBS-Studio-25.0-rc1-Full-x64.zip",
+        "size": 101152395,
+        "updated_at": "2025-07-26T08:06:42+00:00",
+        "synced_at": "2025-07-26 08:06:42.302140"
+      },
+      "OBS-Studio-25.0-rc1-Full-x86.zip_95339175": {
+        "name": "OBS-Studio-25.0-rc1-Full-x86.zip",
+        "size": 95339175,
+        "updated_at": "2025-07-26T08:06:49+00:00",
+        "synced_at": "2025-07-26 08:06:49.987894"
+      }
     }
   },
   "source_codes": {
@@ -3291,6 +3327,16 @@
       "SourceCode_24.0.6.tar.gz": {
         "exists": true,
         "synced_at": "2025-07-26 08:06:08.593440"
+      }
+    },
+    "25.0.0-rc1": {
+      "SourceCode_25.0.0-rc1.zip": {
+        "exists": true,
+        "synced_at": "2025-07-26 08:06:20.867227"
+      },
+      "SourceCode_25.0.0-rc1.tar.gz": {
+        "exists": true,
+        "synced_at": "2025-07-26 08:06:23.021604"
       }
     }
   }
