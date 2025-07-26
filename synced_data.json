@@ -487,6 +487,10 @@
     "32219819": {
       "tag_name": "26.0.1",
       "fully_synced_at": "2025-07-26 08:12:51.920264"
+    },
+    "32231593": {
+      "tag_name": "26.0.2",
+      "fully_synced_at": "2025-07-26 08:13:24.316847"
     }
   },
   "assets": {
@@ -2623,7 +2627,39 @@
       }
     },
     "31931561": {},
-    "32219819": {}
+    "32219819": {},
+    "32231593": {
+      "obs-mac-26.0.2.dmg_109406941": {
+        "name": "obs-mac-26.0.2.dmg",
+        "size": 109406941,
+        "updated_at": "2025-07-26T08:13:07+00:00",
+        "synced_at": "2025-07-26 08:13:07.610894"
+      },
+      "OBS-Studio-26.0.2-Full-Installer-x64.exe_74841664": {
+        "name": "OBS-Studio-26.0.2-Full-Installer-x64.exe",
+        "size": 74841664,
+        "updated_at": "2025-07-26T08:13:11+00:00",
+        "synced_at": "2025-07-26 08:13:11.275244"
+      },
+      "OBS-Studio-26.0.2-Full-Installer-x86.exe_71349928": {
+        "name": "OBS-Studio-26.0.2-Full-Installer-x86.exe",
+        "size": 71349928,
+        "updated_at": "2025-07-26T08:13:14+00:00",
+        "synced_at": "2025-07-26 08:13:14.761380"
+      },
+      "OBS-Studio-26.0.2-Full-x64.zip_99503908": {
+        "name": "OBS-Studio-26.0.2-Full-x64.zip",
+        "size": 99503908,
+        "updated_at": "2025-07-26T08:13:19+00:00",
+        "synced_at": "2025-07-26 08:13:19.643814"
+      },
+      "OBS-Studio-26.0.2-Full-x86.zip_93975512": {
+        "name": "OBS-Studio-26.0.2-Full-x86.zip",
+        "size": 93975512,
+        "updated_at": "2025-07-26T08:13:24+00:00",
+        "synced_at": "2025-07-26 08:13:24.295271"
+      }
+    }
   },
   "source_codes": {
     "0.2.4": {
@@ -3844,6 +3880,16 @@
       "SourceCode_26.0.1.tar.gz": {
         "exists": true,
         "synced_at": "2025-07-26 08:12:51.517163"
+      }
+    },
+    "26.0.2": {
+      "SourceCode_26.0.2.zip": {
+        "exists": true,
+        "synced_at": "2025-07-26 08:13:00.435153"
+      },
+      "SourceCode_26.0.2.tar.gz": {
+        "exists": true,
+        "synced_at": "2025-07-26 08:13:02.704048"
       }
     }
   }
