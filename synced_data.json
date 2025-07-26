@@ -463,6 +463,10 @@
     "25591791": {
       "tag_name": "25.0.7",
       "fully_synced_at": "2025-07-26 08:10:40.737263"
+    },
+    "25904082": {
+      "tag_name": "25.0.8",
+      "fully_synced_at": "2025-07-26 08:11:11.886818"
     }
   },
   "assets": {
@@ -2505,6 +2509,38 @@
         "updated_at": "2025-07-26T08:10:40+00:00",
         "synced_at": "2025-07-26 08:10:40.710711"
       }
+    },
+    "25904082": {
+      "obs-mac-25.0.8.dmg_116450346": {
+        "name": "obs-mac-25.0.8.dmg",
+        "size": 116450346,
+        "updated_at": "2025-07-26T08:10:56+00:00",
+        "synced_at": "2025-07-26 08:10:56.407529"
+      },
+      "OBS-Studio-25.0.8-Full-Installer-x64.exe_73485328": {
+        "name": "OBS-Studio-25.0.8-Full-Installer-x64.exe",
+        "size": 73485328,
+        "updated_at": "2025-07-26T08:11:00+00:00",
+        "synced_at": "2025-07-26 08:11:00.206180"
+      },
+      "OBS-Studio-25.0.8-Full-Installer-x86.exe_70020480": {
+        "name": "OBS-Studio-25.0.8-Full-Installer-x86.exe",
+        "size": 70020480,
+        "updated_at": "2025-07-26T08:11:03+00:00",
+        "synced_at": "2025-07-26 08:11:03.709216"
+      },
+      "OBS-Studio-25.0.8-Full-x64.zip_97844160": {
+        "name": "OBS-Studio-25.0.8-Full-x64.zip",
+        "size": 97844160,
+        "updated_at": "2025-07-26T08:11:07+00:00",
+        "synced_at": "2025-07-26 08:11:07.802042"
+      },
+      "OBS-Studio-25.0.8-Full-x86.zip_92347993": {
+        "name": "OBS-Studio-25.0.8-Full-x86.zip",
+        "size": 92347993,
+        "updated_at": "2025-07-26T08:11:11+00:00",
+        "synced_at": "2025-07-26 08:11:11.864961"
+      }
     }
   },
   "source_codes": {
@@ -3666,6 +3702,16 @@
       "SourceCode_25.0.7.tar.gz": {
         "exists": true,
         "synced_at": "2025-07-26 08:10:35.891042"
+      }
+    },
+    "25.0.8": {
+      "SourceCode_25.0.8.zip": {
+        "exists": true,
+        "synced_at": "2025-07-26 08:10:48.792123"
+      },
+      "SourceCode_25.0.8.tar.gz": {
+        "exists": true,
+        "synced_at": "2025-07-26 08:10:51.920260"
       }
     }
   }
