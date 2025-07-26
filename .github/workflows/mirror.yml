@@ -1,5 +1,5 @@
 # .github/workflows/mirror.yml
-name: 同步
+name: 同步obsproject/obs-studio
 
 on:
   schedule:
