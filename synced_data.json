@@ -119,6 +119,10 @@
     "2150083": {
       "tag_name": "0.12.1",
       "fully_synced_at": "2025-07-26 07:33:59.677047"
+    },
+    "2164130": {
+      "tag_name": "0.12.2",
+      "fully_synced_at": "2025-07-26 07:34:20.970361"
     }
   },
   "assets": {
@@ -483,6 +487,32 @@
         "updated_at": "2025-07-26T07:33:59+00:00",
         "synced_at": "2025-07-26 07:33:59.661080"
       }
+    },
+    "2164130": {
+      "OBS-MP-0.12.2-Installer.exe_36052296": {
+        "name": "OBS-MP-0.12.2-Installer.exe",
+        "size": 36052296,
+        "updated_at": "2025-07-26T07:34:09+00:00",
+        "synced_at": "2025-07-26 07:34:09.178253"
+      },
+      "OBS-MP-0.12.2-Win.zip_38835465": {
+        "name": "OBS-MP-0.12.2-Win.zip",
+        "size": 38835465,
+        "updated_at": "2025-07-26T07:34:11+00:00",
+        "synced_at": "2025-07-26 07:34:11.861463"
+      },
+      "OBS-MP-0.12.2-With-Browser-Installer.exe_76067032": {
+        "name": "OBS-MP-0.12.2-With-Browser-Installer.exe",
+        "size": 76067032,
+        "updated_at": "2025-07-26T07:34:16+00:00",
+        "synced_at": "2025-07-26 07:34:16.275504"
+      },
+      "OBS-MP-0.12.2-With-Browser-Win.zip_83589563": {
+        "name": "OBS-MP-0.12.2-With-Browser-Win.zip",
+        "size": 83589563,
+        "updated_at": "2025-07-26T07:34:20+00:00",
+        "synced_at": "2025-07-26 07:34:20.954769"
+      }
     }
   },
   "source_codes": {
@@ -784,6 +814,16 @@
       "SourceCode_0.12.1.tar.gz": {
         "exists": true,
         "synced_at": "2025-07-26 07:33:46.330107"
+      }
+    },
+    "0.12.2": {
+      "SourceCode_0.12.2.zip": {
+        "exists": true,
+        "synced_at": "2025-07-26 07:34:05.109591"
+      },
+      "SourceCode_0.12.2.tar.gz": {
+        "exists": true,
+        "synced_at": "2025-07-26 07:34:06.671697"
       }
     }
   }
