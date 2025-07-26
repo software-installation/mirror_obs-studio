@@ -275,6 +275,10 @@
     "8558968": {
       "tag_name": "20.1.2",
       "fully_synced_at": "2025-07-26 07:48:52.153792"
+    },
+    "8561437": {
+      "tag_name": "20.1.3",
+      "fully_synced_at": "2025-07-26 07:49:16.208526"
     }
   },
   "assets": {
@@ -1550,7 +1554,33 @@
         "synced_at": "2025-07-26 07:48:42.941345"
       }
     },
-    "8558968": {}
+    "8558968": {},
+    "8561437": {
+      "OBS-Studio-20.1.3-Full-Installer.exe_102779800": {
+        "name": "OBS-Studio-20.1.3-Full-Installer.exe",
+        "size": 102779800,
+        "updated_at": "2025-07-26T07:49:05+00:00",
+        "synced_at": "2025-07-26 07:49:05.146650"
+      },
+      "OBS-Studio-20.1.3-Full.zip_149133126": {
+        "name": "OBS-Studio-20.1.3-Full.zip",
+        "size": 149133126,
+        "updated_at": "2025-07-26T07:49:10+00:00",
+        "synced_at": "2025-07-26 07:49:10.737254"
+      },
+      "OBS-Studio-20.1.3-Small-Installer.exe_36909832": {
+        "name": "OBS-Studio-20.1.3-Small-Installer.exe",
+        "size": 36909832,
+        "updated_at": "2025-07-26T07:49:13+00:00",
+        "synced_at": "2025-07-26 07:49:13.189379"
+      },
+      "OBS-Studio-20.1.3-Small.zip_49437987": {
+        "name": "OBS-Studio-20.1.3-Small.zip",
+        "size": 49437987,
+        "updated_at": "2025-07-26T07:49:16+00:00",
+        "synced_at": "2025-07-26 07:49:16.197090"
+      }
+    }
   },
   "source_codes": {
     "0.2.4": {
@@ -2241,6 +2271,16 @@
       "SourceCode_20.1.2.tar.gz": {
         "exists": true,
         "synced_at": "2025-07-26 07:48:51.796539"
+      }
+    },
+    "20.1.3": {
+      "SourceCode_20.1.3.zip": {
+        "exists": true,
+        "synced_at": "2025-07-26 07:48:59.090838"
+      },
+      "SourceCode_20.1.3.tar.gz": {
+        "exists": true,
+        "synced_at": "2025-07-26 07:49:00.905193"
       }
     }
   }
