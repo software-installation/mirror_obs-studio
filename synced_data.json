@@ -843,6 +843,10 @@
     "183177077": {
       "tag_name": "31.0.0-beta3",
       "fully_synced_at": "2025-07-26 09:16:02.135141"
+    },
+    "186511763": {
+      "tag_name": "31.0.0-rc1",
+      "fully_synced_at": "2025-07-26 09:17:28.876677"
     }
   },
   "assets": {
@@ -6251,6 +6255,80 @@
         "updated_at": "2025-07-26T09:16:01+00:00",
         "synced_at": "2025-07-26 09:16:02.104731"
       }
+    },
+    "186511763": {
+      "OBS-Studio-31.0.0-rc1-macOS-Apple-dSYMs.tar.xz_35206936": {
+        "name": "OBS-Studio-31.0.0-rc1-macOS-Apple-dSYMs.tar.xz",
+        "size": 35206936,
+        "updated_at": "2025-07-26T09:16:19+00:00",
+        "synced_at": "2025-07-26 09:16:19.462161"
+      },
+      "OBS-Studio-31.0.0-rc1-macOS-Apple.dmg_186634645": {
+        "name": "OBS-Studio-31.0.0-rc1-macOS-Apple.dmg",
+        "size": 186634645,
+        "updated_at": "2025-07-26T09:16:26+00:00",
+        "synced_at": "2025-07-26 09:16:26.925761"
+      },
+      "OBS-Studio-31.0.0-rc1-macOS-Intel-dSYMs.tar.xz_36235140": {
+        "name": "OBS-Studio-31.0.0-rc1-macOS-Intel-dSYMs.tar.xz",
+        "size": 36235140,
+        "updated_at": "2025-07-26T09:16:29+00:00",
+        "synced_at": "2025-07-26 09:16:29.444177"
+      },
+      "OBS-Studio-31.0.0-rc1-macOS-Intel.dmg_196599850": {
+        "name": "OBS-Studio-31.0.0-rc1-macOS-Intel.dmg",
+        "size": 196599850,
+        "updated_at": "2025-07-26T09:16:38+00:00",
+        "synced_at": "2025-07-26 09:16:38.499815"
+      },
+      "OBS-Studio-31.0.0-rc1-Sources.tar.gz_16478462": {
+        "name": "OBS-Studio-31.0.0-rc1-Sources.tar.gz",
+        "size": 16478462,
+        "updated_at": "2025-07-26T09:16:40+00:00",
+        "synced_at": "2025-07-26 09:16:40.456902"
+      },
+      "OBS-Studio-31.0.0-rc1-Ubuntu-24.04-x86_64-dbsym.ddeb_434890492": {
+        "name": "OBS-Studio-31.0.0-rc1-Ubuntu-24.04-x86_64-dbsym.ddeb",
+        "size": 434890492,
+        "updated_at": "2025-07-26T09:16:56+00:00",
+        "synced_at": "2025-07-26 09:16:56.324311"
+      },
+      "OBS-Studio-31.0.0-rc1-Ubuntu-24.04-x86_64.deb_134159980": {
+        "name": "OBS-Studio-31.0.0-rc1-Ubuntu-24.04-x86_64.deb",
+        "size": 134159980,
+        "updated_at": "2025-07-26T09:17:02+00:00",
+        "synced_at": "2025-07-26 09:17:02.794321"
+      },
+      "OBS-Studio-31.0.0-rc1-Windows-Installer.exe_156117472": {
+        "name": "OBS-Studio-31.0.0-rc1-Windows-Installer.exe",
+        "size": 156117472,
+        "updated_at": "2025-07-26T09:17:08+00:00",
+        "synced_at": "2025-07-26 09:17:08.304573"
+      },
+      "OBS-Studio-31.0.0-rc1-Windows-PDBs.zip_57794124": {
+        "name": "OBS-Studio-31.0.0-rc1-Windows-PDBs.zip",
+        "size": 57794124,
+        "updated_at": "2025-07-26T09:17:11+00:00",
+        "synced_at": "2025-07-26 09:17:11.541910"
+      },
+      "OBS-Studio-31.0.0-rc1-Windows.zip_181459166": {
+        "name": "OBS-Studio-31.0.0-rc1-Windows.zip",
+        "size": 181459166,
+        "updated_at": "2025-07-26T09:17:17+00:00",
+        "synced_at": "2025-07-26 09:17:17.849533"
+      },
+      "obs-studio_31.0.0.rc1-0obsproject1.noble_amd64.deb_104890696": {
+        "name": "obs-studio_31.0.0.rc1-0obsproject1.noble_amd64.deb",
+        "size": 104890696,
+        "updated_at": "2025-07-26T09:17:23+00:00",
+        "synced_at": "2025-07-26 09:17:23.541822"
+      },
+      "obs-studio_31.0.0.rc1-0obsproject1.oracular_amd64.deb_105082650": {
+        "name": "obs-studio_31.0.0.rc1-0obsproject1.oracular_amd64.deb",
+        "size": 105082650,
+        "updated_at": "2025-07-26T09:17:28+00:00",
+        "synced_at": "2025-07-26 09:17:28.846102"
+      }
     }
   },
   "source_codes": {
@@ -8362,6 +8440,16 @@
       "SourceCode_31.0.0-beta3.tar.gz": {
         "exists": true,
         "synced_at": "2025-07-26 09:14:48.590020"
+      }
+    },
+    "31.0.0-rc1": {
+      "SourceCode_31.0.0-rc1.zip": {
+        "exists": true,
+        "synced_at": "2025-07-26 09:16:13.583228"
+      },
+      "SourceCode_31.0.0-rc1.tar.gz": {
+        "exists": true,
+        "synced_at": "2025-07-26 09:16:16.509176"
       }
     }
   }
