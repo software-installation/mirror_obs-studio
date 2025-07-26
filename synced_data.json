@@ -171,6 +171,10 @@
     "3612225": {
       "tag_name": "0.15.0",
       "fully_synced_at": "2025-07-26 07:38:00.018333"
+    },
+    "3624127": {
+      "tag_name": "0.15.1",
+      "fully_synced_at": "2025-07-26 07:38:28.223424"
     }
   },
   "assets": {
@@ -798,6 +802,38 @@
         "updated_at": "2025-07-26T07:37:59+00:00",
         "synced_at": "2025-07-26 07:38:00.008852"
       }
+    },
+    "3624127": {
+      "obs-0.15.1-installer.dmg_74912193": {
+        "name": "obs-0.15.1-installer.dmg",
+        "size": 74912193,
+        "updated_at": "2025-07-26T07:38:12+00:00",
+        "synced_at": "2025-07-26 07:38:12.440533"
+      },
+      "OBS-Studio-0.15.1-Installer.exe_40812752": {
+        "name": "OBS-Studio-0.15.1-Installer.exe",
+        "size": 40812752,
+        "updated_at": "2025-07-26T07:38:14+00:00",
+        "synced_at": "2025-07-26 07:38:15.012797"
+      },
+      "OBS-Studio-0.15.1-With-Browser-Installer.exe_99216040": {
+        "name": "OBS-Studio-0.15.1-With-Browser-Installer.exe",
+        "size": 99216040,
+        "updated_at": "2025-07-26T07:38:20+00:00",
+        "synced_at": "2025-07-26 07:38:20.241108"
+      },
+      "OBS-Studio-0.15.1-With-Browser.zip_108706848": {
+        "name": "OBS-Studio-0.15.1-With-Browser.zip",
+        "size": 108706848,
+        "updated_at": "2025-07-26T07:38:25+00:00",
+        "synced_at": "2025-07-26 07:38:25.425704"
+      },
+      "OBS-Studio-0.15.1.zip_44048417": {
+        "name": "OBS-Studio-0.15.1.zip",
+        "size": 44048417,
+        "updated_at": "2025-07-26T07:38:28+00:00",
+        "synced_at": "2025-07-26 07:38:28.213671"
+      }
     }
   },
   "source_codes": {
@@ -1229,6 +1265,16 @@
       "SourceCode_0.15.0.tar.gz": {
         "exists": true,
         "synced_at": "2025-07-26 07:37:44.126401"
+      }
+    },
+    "0.15.1": {
+      "SourceCode_0.15.1.zip": {
+        "exists": true,
+        "synced_at": "2025-07-26 07:38:06.332776"
+      },
+      "SourceCode_0.15.1.tar.gz": {
+        "exists": true,
+        "synced_at": "2025-07-26 07:38:07.981543"
       }
     }
   }
