@@ -303,6 +303,10 @@
     "10204218": {
       "tag_name": "21.1.1",
       "fully_synced_at": "2025-07-26 07:50:58.682044"
+    },
+    "10973462": {
+      "tag_name": "21.1.2",
+      "fully_synced_at": "2025-07-26 07:51:23.887889"
     }
   },
   "assets": {
@@ -2471,6 +2475,16 @@
       "SourceCode_21.1.2.tar.gz": {
         "exists": true,
         "synced_at": "2025-07-26 07:51:07.703569"
+      }
+    },
+    "22.0.0-rc1": {
+      "SourceCode_22.0.0-rc1.zip": {
+        "exists": true,
+        "synced_at": "2025-07-26 07:51:31.476748"
+      },
+      "SourceCode_22.0.0-rc1.tar.gz": {
+        "exists": true,
+        "synced_at": "2025-07-26 07:51:33.213043"
       }
     }
   }
