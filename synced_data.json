@@ -359,6 +359,10 @@
     "16586349": {
       "tag_name": "23.1.0",
       "fully_synced_at": "2025-07-26 08:01:59.040115"
+    },
+    "17451425": {
+      "tag_name": "23.2.0-rc1",
+      "fully_synced_at": "2025-07-26 08:02:23.446959"
     }
   },
   "assets": {
@@ -2001,6 +2005,38 @@
         "updated_at": "2025-07-26T08:01:58+00:00",
         "synced_at": "2025-07-26 08:01:59.019555"
       }
+    },
+    "17451425": {
+      "obs-mac-23.2-rc1.pkg_114853816": {
+        "name": "obs-mac-23.2-rc1.pkg",
+        "size": 114853816,
+        "updated_at": "2025-07-26T08:02:06+00:00",
+        "synced_at": "2025-07-26 08:02:06.484729"
+      },
+      "OBS-Studio-23.2-rc1-Full-Installer-x64.exe_69800984": {
+        "name": "OBS-Studio-23.2-rc1-Full-Installer-x64.exe",
+        "size": 69800984,
+        "updated_at": "2025-07-26T08:02:10+00:00",
+        "synced_at": "2025-07-26 08:02:10.741620"
+      },
+      "OBS-Studio-23.2-rc1-Full-Installer-x86.exe_66580104": {
+        "name": "OBS-Studio-23.2-rc1-Full-Installer-x86.exe",
+        "size": 66580104,
+        "updated_at": "2025-07-26T08:02:15+00:00",
+        "synced_at": "2025-07-26 08:02:15.600286"
+      },
+      "OBS-Studio-23.2-rc1-Full-x64.zip_92421464": {
+        "name": "OBS-Studio-23.2-rc1-Full-x64.zip",
+        "size": 92421464,
+        "updated_at": "2025-07-26T08:02:19+00:00",
+        "synced_at": "2025-07-26 08:02:19.293524"
+      },
+      "OBS-Studio-23.2-rc1-Full-x86.zip_87155849": {
+        "name": "OBS-Studio-23.2-rc1-Full-x86.zip",
+        "size": 87155849,
+        "updated_at": "2025-07-26T08:02:23+00:00",
+        "synced_at": "2025-07-26 08:02:23.426600"
+      }
     }
   },
   "source_codes": {
@@ -2902,6 +2938,16 @@
       "SourceCode_23.1.0.tar.gz": {
         "exists": true,
         "synced_at": "2025-07-26 08:01:34.170060"
+      }
+    },
+    "23.2.0-rc1": {
+      "SourceCode_23.2.0-rc1.zip": {
+        "exists": true,
+        "synced_at": "2025-07-26 08:02:00.479072"
+      },
+      "SourceCode_23.2.0-rc1.tar.gz": {
+        "exists": true,
+        "synced_at": "2025-07-26 08:02:00.482893"
       }
     }
   }
