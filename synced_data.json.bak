@@ -1,0 +1,25 @@
+{
+  "releases": {},
+  "assets": {
+    "332287": {
+      "OBSMac-0.2.4.zip_18970601": {
+        "name": "OBSMac-0.2.4.zip",
+        "size": 18970601,
+        "updated_at": "2025-07-26T07:28:17+00:00",
+        "synced_at": "2025-07-26 07:28:17.943160"
+      }
+    }
+  },
+  "source_codes": {
+    "0.2.4": {
+      "SourceCode_0.2.4.zip": {
+        "exists": true,
+        "synced_at": "2025-07-26 07:28:14.325347"
+      },
+      "SourceCode_0.2.4.tar.gz": {
+        "exists": true,
+        "synced_at": "2025-07-26 07:28:15.837733"
+      }
+    }
+  }
+}
