@@ -195,6 +195,10 @@
     "4249231": {
       "tag_name": "0.16.1",
       "fully_synced_at": "2025-07-26 07:40:14.678043"
+    },
+    "4267307": {
+      "tag_name": "0.16.2",
+      "fully_synced_at": "2025-07-26 07:40:43.501540"
     }
   },
   "assets": {
@@ -959,6 +963,38 @@
         "updated_at": "2025-07-26T07:40:14+00:00",
         "synced_at": "2025-07-26 07:40:14.665271"
       }
+    },
+    "4267307": {
+      "obs-0.16.2-installer.dmg_76781477": {
+        "name": "obs-0.16.2-installer.dmg",
+        "size": 76781477,
+        "updated_at": "2025-07-26T07:40:26+00:00",
+        "synced_at": "2025-07-26 07:40:26.713071"
+      },
+      "OBS-Studio-0.16.2-Full-Installer.exe_97276344": {
+        "name": "OBS-Studio-0.16.2-Full-Installer.exe",
+        "size": 97276344,
+        "updated_at": "2025-07-26T07:40:30+00:00",
+        "synced_at": "2025-07-26 07:40:30.727729"
+      },
+      "OBS-Studio-0.16.2-Full.zip_141460378": {
+        "name": "OBS-Studio-0.16.2-Full.zip",
+        "size": 141460378,
+        "updated_at": "2025-07-26T07:40:36+00:00",
+        "synced_at": "2025-07-26 07:40:36.970645"
+      },
+      "OBS-Studio-0.16.2-Small-Installer.exe_42070072": {
+        "name": "OBS-Studio-0.16.2-Small-Installer.exe",
+        "size": 42070072,
+        "updated_at": "2025-07-26T07:40:39+00:00",
+        "synced_at": "2025-07-26 07:40:39.983782"
+      },
+      "OBS-Studio-0.16.2-Small.zip_59330063": {
+        "name": "OBS-Studio-0.16.2-Small.zip",
+        "size": 59330063,
+        "updated_at": "2025-07-26T07:40:43+00:00",
+        "synced_at": "2025-07-26 07:40:43.489065"
+      }
     }
   },
   "source_codes": {
@@ -1450,6 +1486,16 @@
       "SourceCode_0.16.1.tar.gz": {
         "exists": true,
         "synced_at": "2025-07-26 07:39:56.857116"
+      }
+    },
+    "0.16.2": {
+      "SourceCode_0.16.2.zip": {
+        "exists": true,
+        "synced_at": "2025-07-26 07:40:21.425228"
+      },
+      "SourceCode_0.16.2.tar.gz": {
+        "exists": true,
+        "synced_at": "2025-07-26 07:40:23.056637"
       }
     }
   }
