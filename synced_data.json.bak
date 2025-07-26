@@ -335,6 +335,14 @@
     "15466005": {
       "tag_name": "23.0.0-rc1",
       "fully_synced_at": "2025-07-26 08:00:12.290406"
+    },
+    "15551537": {
+      "tag_name": "23.0.0-rc2",
+      "fully_synced_at": "2025-07-26 08:00:23.179411"
+    },
+    "15766962": {
+      "tag_name": "23.0.0",
+      "fully_synced_at": "2025-07-26 08:00:25.085457"
     }
   },
   "assets": {
@@ -1860,6 +1868,39 @@
         "updated_at": "2025-07-26T08:00:23+00:00",
         "synced_at": "2025-07-26 08:00:23.158018"
       }
+    },
+    "15766962": {},
+    "15794014": {
+      "obs-mac-23.0.1-installer.pkg_114813518": {
+        "name": "obs-mac-23.0.1-installer.pkg",
+        "size": 114813518,
+        "updated_at": "2025-07-26T08:00:31+00:00",
+        "synced_at": "2025-07-26 08:00:32.118329"
+      },
+      "OBS-Studio-23.0.1-Full-Installer-x64.exe_69683752": {
+        "name": "OBS-Studio-23.0.1-Full-Installer-x64.exe",
+        "size": 69683752,
+        "updated_at": "2025-07-26T08:00:36+00:00",
+        "synced_at": "2025-07-26 08:00:36.486379"
+      },
+      "OBS-Studio-23.0.1-Full-Installer-x86.exe_66488400": {
+        "name": "OBS-Studio-23.0.1-Full-Installer-x86.exe",
+        "size": 66488400,
+        "updated_at": "2025-07-26T08:00:41+00:00",
+        "synced_at": "2025-07-26 08:00:41.306355"
+      },
+      "OBS-Studio-23.0.1-Full-x64.zip_92137809": {
+        "name": "OBS-Studio-23.0.1-Full-x64.zip",
+        "size": 92137809,
+        "updated_at": "2025-07-26T08:00:45+00:00",
+        "synced_at": "2025-07-26 08:00:45.988121"
+      },
+      "OBS-Studio-23.0.1-Full-x86.zip_86936568": {
+        "name": "OBS-Studio-23.0.1-Full-x86.zip",
+        "size": 86936568,
+        "updated_at": "2025-07-26T08:00:50+00:00",
+        "synced_at": "2025-07-26 08:00:50.862717"
+      }
     }
   },
   "source_codes": {
@@ -2711,6 +2752,26 @@
       "SourceCode_23.0.0-rc2.tar.gz": {
         "exists": true,
         "synced_at": "2025-07-26 08:00:13.825767"
+      }
+    },
+    "23.0.0": {
+      "SourceCode_23.0.0.zip": {
+        "exists": true,
+        "synced_at": "2025-07-26 08:00:24.725991"
+      },
+      "SourceCode_23.0.0.tar.gz": {
+        "exists": true,
+        "synced_at": "2025-07-26 08:00:24.729587"
+      }
+    },
+    "23.0.1": {
+      "SourceCode_23.0.1.zip": {
+        "exists": true,
+        "synced_at": "2025-07-26 08:00:26.012394"
+      },
+      "SourceCode_23.0.1.tar.gz": {
+        "exists": true,
+        "synced_at": "2025-07-26 08:00:26.015948"
       }
     }
   }
