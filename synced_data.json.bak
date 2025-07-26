@@ -251,6 +251,10 @@
     "6455828": {
       "tag_name": "19.0.2",
       "fully_synced_at": "2025-07-26 07:45:59.512136"
+    },
+    "6799162": {
+      "tag_name": "19.0.3",
+      "fully_synced_at": "2025-07-26 07:46:36.229549"
     }
   },
   "assets": {
@@ -1391,6 +1395,38 @@
         "updated_at": "2025-07-26T07:46:36+00:00",
         "synced_at": "2025-07-26 07:46:36.215564"
       }
+    },
+    "7352149": {
+      "obs-mac-20.0-installer.pkg_86247973": {
+        "name": "obs-mac-20.0-installer.pkg",
+        "size": 86247973,
+        "updated_at": "2025-07-26T07:46:49+00:00",
+        "synced_at": "2025-07-26 07:46:49.559955"
+      },
+      "OBS-Studio-20.0-Full-Installer.exe_101899160": {
+        "name": "OBS-Studio-20.0-Full-Installer.exe",
+        "size": 101899160,
+        "updated_at": "2025-07-26T07:46:53+00:00",
+        "synced_at": "2025-07-26 07:46:53.628724"
+      },
+      "OBS-Studio-20.0-Full.zip_147358694": {
+        "name": "OBS-Studio-20.0-Full.zip",
+        "size": 147358694,
+        "updated_at": "2025-07-26T07:47:00+00:00",
+        "synced_at": "2025-07-26 07:47:00.766529"
+      },
+      "OBS-Studio-20.0-Small-Installer.exe_35991808": {
+        "name": "OBS-Studio-20.0-Small-Installer.exe",
+        "size": 35991808,
+        "updated_at": "2025-07-26T07:47:03+00:00",
+        "synced_at": "2025-07-26 07:47:03.433937"
+      },
+      "OBS-Studio-20.0-Small.zip_47663555": {
+        "name": "OBS-Studio-20.0-Small.zip",
+        "size": 47663555,
+        "updated_at": "2025-07-26T07:47:06+00:00",
+        "synced_at": "2025-07-26 07:47:06.495112"
+      }
     }
   },
   "source_codes": {
@@ -2032,6 +2068,16 @@
       "SourceCode_19.0.3.tar.gz": {
         "exists": true,
         "synced_at": "2025-07-26 07:46:08.318259"
+      }
+    },
+    "20.0.0": {
+      "SourceCode_20.0.0.zip": {
+        "exists": true,
+        "synced_at": "2025-07-26 07:46:43.149670"
+      },
+      "SourceCode_20.0.0.tar.gz": {
+        "exists": true,
+        "synced_at": "2025-07-26 07:46:44.938524"
       }
     }
   }
