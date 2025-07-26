@@ -387,6 +387,10 @@
     "19788131": {
       "tag_name": "24.0.0-rc4",
       "fully_synced_at": "2025-07-26 08:04:20.400052"
+    },
+    "19891997": {
+      "tag_name": "24.0.0-rc5",
+      "fully_synced_at": "2025-07-26 08:04:44.247473"
     }
   },
   "assets": {
@@ -2150,6 +2154,26 @@
         "updated_at": "2025-07-26T08:04:20+00:00",
         "synced_at": "2025-07-26 08:04:20.375206"
       }
+    },
+    "19891997": {
+      "obs-mac-24.0-rc5-installer.pkg_108836793": {
+        "name": "obs-mac-24.0-rc5-installer.pkg",
+        "size": 108836793,
+        "updated_at": "2025-07-26T08:04:35+00:00",
+        "synced_at": "2025-07-26 08:04:35.912556"
+      },
+      "OBS-Studio-24.0-rc5-Full-Installer-x64.exe_80466032": {
+        "name": "OBS-Studio-24.0-rc5-Full-Installer-x64.exe",
+        "size": 80466032,
+        "updated_at": "2025-07-26T08:04:39+00:00",
+        "synced_at": "2025-07-26 08:04:39.580072"
+      },
+      "OBS-Studio-24.0-rc5-Full-x64.zip_107829108": {
+        "name": "OBS-Studio-24.0-rc5-Full-x64.zip",
+        "size": 107829108,
+        "updated_at": "2025-07-26T08:04:44+00:00",
+        "synced_at": "2025-07-26 08:04:44.223310"
+      }
     }
   },
   "source_codes": {
@@ -3121,6 +3145,16 @@
       "SourceCode_24.0.0-rc4.tar.gz": {
         "exists": true,
         "synced_at": "2025-07-26 08:04:09.871818"
+      }
+    },
+    "24.0.0-rc5": {
+      "SourceCode_24.0.0-rc5.zip": {
+        "exists": true,
+        "synced_at": "2025-07-26 08:04:28.351999"
+      },
+      "SourceCode_24.0.0-rc5.tar.gz": {
+        "exists": true,
+        "synced_at": "2025-07-26 08:04:30.206257"
       }
     }
   }
