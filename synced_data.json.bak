@@ -103,6 +103,10 @@
     "1593873": {
       "tag_name": "0.11.2",
       "fully_synced_at": "2025-07-26 07:32:50.693209"
+    },
+    "1645308": {
+      "tag_name": "0.11.3",
+      "fully_synced_at": "2025-07-26 07:33:06.095633"
     }
   },
   "assets": {
@@ -395,6 +399,26 @@
         "updated_at": "2025-07-26T07:33:05+00:00",
         "synced_at": "2025-07-26 07:33:06.086537"
       }
+    },
+    "1679763": {
+      "OBS-MP-0.11.4-Installer.exe_33758976": {
+        "name": "OBS-MP-0.11.4-Installer.exe",
+        "size": 33758976,
+        "updated_at": "2025-07-26T07:33:16+00:00",
+        "synced_at": "2025-07-26 07:33:16.195206"
+      },
+      "OBS-MP-0.11.4-Win-Portable.zip_46686653": {
+        "name": "OBS-MP-0.11.4-Win-Portable.zip",
+        "size": 46686653,
+        "updated_at": "2025-07-26T07:33:19+00:00",
+        "synced_at": "2025-07-26 07:33:19.224461"
+      },
+      "OBS-MP-0.11.4-Win.zip_46686507": {
+        "name": "OBS-MP-0.11.4-Win.zip",
+        "size": 46686507,
+        "updated_at": "2025-07-26T07:33:21+00:00",
+        "synced_at": "2025-07-26 07:33:21.786186"
+      }
     }
   },
   "source_codes": {
@@ -666,6 +690,16 @@
       "SourceCode_0.11.3.tar.gz": {
         "exists": true,
         "synced_at": "2025-07-26 07:32:57.792402"
+      }
+    },
+    "0.11.4": {
+      "SourceCode_0.11.4.zip": {
+        "exists": true,
+        "synced_at": "2025-07-26 07:33:11.977943"
+      },
+      "SourceCode_0.11.4.tar.gz": {
+        "exists": true,
+        "synced_at": "2025-07-26 07:33:13.547667"
       }
     }
   }
