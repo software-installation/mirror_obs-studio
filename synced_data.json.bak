@@ -387,6 +387,10 @@
     "19788131": {
       "tag_name": "24.0.0-rc4",
       "fully_synced_at": "2025-07-26 08:04:20.400052"
+    },
+    "19891997": {
+      "tag_name": "24.0.0-rc5",
+      "fully_synced_at": "2025-07-26 08:04:44.247473"
     }
   },
   "assets": {
@@ -3151,6 +3155,16 @@
       "SourceCode_24.0.0-rc5.tar.gz": {
         "exists": true,
         "synced_at": "2025-07-26 08:04:30.206257"
+      }
+    },
+    "24.0.0": {
+      "SourceCode_24.0.0.zip": {
+        "exists": true,
+        "synced_at": "2025-07-26 08:04:50.594187"
+      },
+      "SourceCode_24.0.0.tar.gz": {
+        "exists": true,
+        "synced_at": "2025-07-26 08:04:52.443327"
       }
     }
   }
