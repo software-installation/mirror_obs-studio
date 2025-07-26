@@ -167,6 +167,10 @@
     "3231118": {
       "tag_name": "0.14.2",
       "fully_synced_at": "2025-07-26 07:37:36.267575"
+    },
+    "3612225": {
+      "tag_name": "0.15.0",
+      "fully_synced_at": "2025-07-26 07:38:00.018333"
     }
   },
   "assets": {
@@ -768,6 +772,32 @@
         "updated_at": "2025-07-26T07:37:36+00:00",
         "synced_at": "2025-07-26 07:37:36.258262"
       }
+    },
+    "3612225": {
+      "OBS-Studio-0.15.0-Installer.exe_40771496": {
+        "name": "OBS-Studio-0.15.0-Installer.exe",
+        "size": 40771496,
+        "updated_at": "2025-07-26T07:37:47+00:00",
+        "synced_at": "2025-07-26 07:37:47.153903"
+      },
+      "OBS-Studio-0.15.0-With-Browser-Installer.exe_92621032": {
+        "name": "OBS-Studio-0.15.0-With-Browser-Installer.exe",
+        "size": 92621032,
+        "updated_at": "2025-07-26T07:37:51+00:00",
+        "synced_at": "2025-07-26 07:37:51.870275"
+      },
+      "OBS-Studio-0.15.0-With-Browser.zip_102227472": {
+        "name": "OBS-Studio-0.15.0-With-Browser.zip",
+        "size": 102227472,
+        "updated_at": "2025-07-26T07:37:56+00:00",
+        "synced_at": "2025-07-26 07:37:57.066094"
+      },
+      "OBS-Studio-0.15.0.zip_43991362": {
+        "name": "OBS-Studio-0.15.0.zip",
+        "size": 43991362,
+        "updated_at": "2025-07-26T07:37:59+00:00",
+        "synced_at": "2025-07-26 07:38:00.008852"
+      }
     }
   },
   "source_codes": {
@@ -1189,6 +1219,16 @@
       "SourceCode_0.14.2.tar.gz": {
         "exists": true,
         "synced_at": "2025-07-26 07:37:19.890311"
+      }
+    },
+    "0.15.0": {
+      "SourceCode_0.15.0.zip": {
+        "exists": true,
+        "synced_at": "2025-07-26 07:37:42.528051"
+      },
+      "SourceCode_0.15.0.tar.gz": {
+        "exists": true,
+        "synced_at": "2025-07-26 07:37:44.126401"
       }
     }
   }
